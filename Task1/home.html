@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>My Blog</title>
+      <style>
+            body {
+                  font-family: "Times New Roman", Times, serif;
+                  margin: 0;
+                  padding: 0;
+                  background-color: #f0f0f0;
+            }
+
+            .header {
+                  background-color: white;
+                  color: black;
+                  text-align: center;
+                  padding: 20px;
+                  font-size: 24px;
+                  font-weight: 800;
+            }
+
+            .nav {
+                  display: flex;
+                  justify-content: center;
+                  background-color: #222;
+                  padding: 10px;
+                  flex-wrap: wrap;
+            }
+
+            .nav a {
+                  color: white;
+                  margin: 10px;
+                  text-decoration: none;
+            }
+
+            .container {
+                  display: flex;
+                  justify-content: center;
+                  flex-wrap: wrap;
+                  padding: 20px;
+                  gap: 20px;
+            }
+
+            .main-content {
+                  width: 60%;
+                  display: flex;
+                  flex-direction: column;
+                  gap: 20px;
+            }
+
+            .content {
+                  background: white;
+                  height: auto;
+                  box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+                  padding: 20px;
+            }
+
+            .content img {
+                  width: 100%;
+                  height: 300px;
+                  display: block;
+            }
+
+            .content .button-section {
+                  display: flex;
+                  justify-content: space-between;
+                  align-items: center;
+                  margin-top: 10px;
+            }
+
+            .content .read-more {
+                  font-size: 14px;
+                  padding: 10px 15px;
+                  border-radius: 5px;
+                  background-color: black;
+                  color: white;
+                  border: none;
+                  cursor: pointer;
+            }
+
+            .content input {
+                  background-color: black;
+                  color: white;
+                  border: none;
+                  cursor: pointer;
+                  width: 50px;
+                  height: 50px;
+                  border-radius: 50%;
+            }
+
+            .sidebar {
+                  width: 30%;
+                  display: flex;
+                  flex-direction: column;
+                  gap: 10px;
+            }
+
+            .sidebar-section {
+                  background: white;
+                  padding: 20px;
+                  box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+            }
+
+            .profile img {
+                  width: 100%;
+            }
+
+            .popular-posts img {
+                  width: 50px;
+                  height: 50px;
+                  margin-right: 10px;
+            }
+
+            .popular-posts ul,
+            .tags ul {
+                  list-style: none;
+                  padding: 0;
+            }
+
+            .popular-posts li {
+                  display: flex;
+                  align-items: center;
+                  margin-bottom: 10px;
+            }
+
+            .tags a {
+                  display: inline-block;
+                  background: #ddd;
+                  padding: 5px 10px;
+                  margin: 5px;
+                  text-decoration: none;
+                  border-radius: 5px;
+                  color: black;
+            }
+
+            .content h2 {
+                  text-align: center;
+            }
+
+            .contact-form h3 {
+                  text-align: center;
+            }
+
+            body h1 {
+                  text-align: center;
+                  font-size: 20px;
+                  font-weight: 200;
+            }
+
+            /* Mobile Responsive Design */
+            @media screen and (max-width: 1024px) {
+                  .main-content {
+                        width: 80%;
+                  }
+
+                  .sidebar {
+                        width: 80%;
+                  }
+
+                  .content {
+                        padding: 15px;
+                  }
+            }
+
+            @media screen and (max-width: 768px) {
+                  .container {
+                        flex-direction: column;
+                        align-items: center;
+                  }
+
+                  .main-content {
+                        width: 90%;
+                  }
+
+                  .sidebar {
+                        width: 90%;
+                  }
+
+                  .nav {
+                        flex-direction: column;
+                        align-items: center;
+                  }
+
+                  .nav a {
+                        padding: 10px;
+                        text-align: center;
+                        width: 100%;
+                  }
+            }
+
+            @media screen and (max-width: 480px) {
+                  .header {
+                        font-size: 20px;
+                        padding: 15px;
+                  }
+
+                  .content {
+                        padding: 10px;
+                  }
+
+                  .content .button-section {
+                        flex-direction: column;
+                        align-items: center;
+                  }
+
+                  .content .read-more {
+                        width: 100%;
+                        text-align: center;
+                        margin-bottom: 10px;
+                  }
+            }
+      </style>
+</head>
+
+<body>
+      <div class="header">MY BLOG
+            <h1>Welcome to the Blog of Unknown</h1>
+      </div>
+
+      <div class="nav">
+            <a href="index.html">Home</a>
+            <a href="#">Blog</a>
+            <a href="#">Contact</a>
+            <a href="#">About</a>
+      </div>
+
+      <div class="container">
+            <div class="main-content">
+                  <div class="content">
+                        <img src="forest.jpg" alt="Forest Image">
+                        <h3>Title Heading</h3>
+                        <p><strong>Title Description</strong> April 7, 2014</p>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry...</p>
+                        <div class="button-section">
+                              <button class="read-more">READ MORE >></button>
+                              <span>Comments <input type="button" value="0"></span>
+                        </div>
+                  </div>
+                  <div class="content">
+                        <img src="forest.jpg" alt="Forest Image">
+                        <h3>Title Heading</h3>
+                        <p><strong>Title Description</strong> April 7, 2014</p>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry...</p>
+                        <div class="button-section">
+                              <button class="read-more">READ MORE >></button>
+                              <span>Comments <input type="button" value="0"></span>
+                        </div>
+                  </div>
+            </div>
+            <div class="sidebar">
+                  <div class="sidebar-section profile">
+                        <img src="profile.jpg" alt="Profile Picture">
+                        <h3>MY NAME</h3>
+                        <p>It is a long established fact that a reader will be distracted by readable content.</p>
+                  </div>
+                  <div class="sidebar-section popular-posts">
+                        <h3>Popular Posts</h3>
+                        <ul>
+                              <li><img src="post1.jpg" alt=""> Ipsum - Praes tinci sed</li>
+                              <hr>
+                              <li><img src="post2.jpg" alt=""> Domun - Ultricies congue</li>
+                              <hr>
+                              <li><img src="post3.jpg" alt=""> Minguan - Lorem ipsum</li>
+                              <hr>
+                              <li><img src="post4.jpg" alt=""> Lorem - Sed mattis nunc</li>
+                        </ul>
+                  </div>
+                  <div class="sidebar-section tags">
+                        <h3>Tags</h3>
+                        <a href="#">Travel</a> <a href="#">New York</a> <a href="#">London</a>
+                        <a href="#">IKEA</a> <a href="#">Norway</a> <a href="#">DIY</a>
+                        <a href="#">Ideas</a> <a href="#">Baby</a> <a href="#">Family</a>
+                        <a href="#">News</a> <a href="#">Clothing</a> <a href="#">Shopping</a>
+                        <a href="#">Sports</a> <a href="#">Games</a>
+                  </div>
+            </div>
+      </div>
+</body>
+
+</html>
