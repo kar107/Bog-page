@@ -584,9 +584,7 @@ small {
       }
       /* fifth div */
       .fifth{
-            max-width: 100%;
-            margin-top: -60px;
-            margin-right: 10px;
+            margin: auto;
             padding-bottom: 10px;
       }
       .fifth .row{
