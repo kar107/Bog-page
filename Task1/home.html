@@ -55,7 +55,6 @@
                   background: white;
                   height: auto;
                   box-shadow: 0 0 10px rgba(0, 0, 0, 1);
-                  padding: 20px;
             }
 
             .content img {
@@ -74,10 +73,8 @@
             .content .read-more {
                   font-size: 14px;
                   padding: 10px 15px;
-                  border-radius: 5px;
-                  background-color: black;
-                  color: white;
-                  border: none;
+                  color: black;
+                  border: 2px solid black;
                   cursor: pointer;
             }
 
@@ -86,9 +83,8 @@
                   color: white;
                   border: none;
                   cursor: pointer;
-                  width: 50px;
-                  height: 50px;
-                  border-radius: 50%;
+                  width: 40px;
+                  height: 40px;
             }
 
             .sidebar {
@@ -100,17 +96,23 @@
 
             .sidebar-section {
                   background: white;
-                  padding: 20px;
                   box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+                  overflow: hidden;
             }
-
             .profile img {
                   width: 100%;
             }
-
+            .popular-posts h3{
+                  background-color: #f5f5f5;
+                  padding: 10px;
+                  font-size: 25px;
+                  margin: 0;
+                  width: 100%;
+            }
             .popular-posts img {
                   width: 50px;
                   height: 50px;
+                  padding: 10px;
                   margin-right: 10px;
             }
 
@@ -125,15 +127,25 @@
                   align-items: center;
                   margin-bottom: 10px;
             }
-
+            .tags h3 {
+                  background-color: #f5f5f5;
+                  padding: 10px;
+                  font-size: 25px;
+                  margin: 0;
+                  width: 100%;
+            }
             .tags a {
-                  display: inline-block;
-                  background: #ddd;
+                  
+                  background: #f2f2f2;
                   padding: 5px 10px;
                   margin: 5px;
                   text-decoration: none;
-                  border-radius: 5px;
                   color: black;
+            }
+            .tages-section{
+                  display: flex;
+                  flex-wrap: wrap;
+                  gap: 2px;
             }
 
             .content h2 {
@@ -142,6 +154,7 @@
 
             .contact-form h3 {
                   text-align: center;
+
             }
 
             body h1 {
@@ -231,30 +244,39 @@
             <div class="main-content">
                   <div class="content">
                         <img src="forest.jpg" alt="Forest Image">
-                        <h3>Title Heading</h3>
-                        <p><strong>Title Description</strong> April 7, 2014</p>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry...</p>
-                        <div class="button-section">
-                              <button class="read-more">READ MORE >></button>
-                              <span>Comments <input type="button" value="0"></span>
+                        <div class="image-content" style="padding: 20px;">
+
+                              <h3>Title Heading</h3>
+                              <p><strong>Title Description</strong> April 7, 2014</p>
+                              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum is simply dummy text of the printing and typesetting industry...</p>
+                              <div class="button-section">
+                                    <button class="read-more">READ MORE >></button>
+                                    <span>Comments <input type="button" value="0"></span>
+                              </div>
                         </div>
                   </div>
                   <div class="content">
                         <img src="forest.jpg" alt="Forest Image">
-                        <h3>Title Heading</h3>
-                        <p><strong>Title Description</strong> April 7, 2014</p>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry...</p>
-                        <div class="button-section">
-                              <button class="read-more">READ MORE >></button>
-                              <span>Comments <input type="button" value="0"></span>
+                        <div class="image-content" style="padding: 20px;">
+
+                              <h3>Title Heading</h3>
+                              <p><strong>Title Description</strong> April 7, 2014</p>
+                              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum is simply dummy text of the printing and typesetting industry...</p>
+                              <div class="button-section">
+                                    <button class="read-more">READ MORE >></button>
+                                    <span>Comments <input type="button" value="0"></span>
+                              </div>
                         </div>
                   </div>
             </div>
             <div class="sidebar">
                   <div class="sidebar-section profile">
                         <img src="profile.jpg" alt="Profile Picture">
-                        <h3>MY NAME</h3>
-                        <p>It is a long established fact that a reader will be distracted by readable content.</p>
+                        <div class="profile-content" style="padding: 20px;">
+
+                              <h3 style="font-size: 25px;">MY NAME</h3>
+                              <p>It is a long established fact that a reader will be distracted by readable content.</p>
+                        </div>
                   </div>
                   <div class="sidebar-section popular-posts">
                         <h3>Popular Posts</h3>
@@ -270,11 +292,13 @@
                   </div>
                   <div class="sidebar-section tags">
                         <h3>Tags</h3>
-                        <a href="#">Travel</a> <a href="#">New York</a> <a href="#">London</a>
-                        <a href="#">IKEA</a> <a href="#">Norway</a> <a href="#">DIY</a>
-                        <a href="#">Ideas</a> <a href="#">Baby</a> <a href="#">Family</a>
-                        <a href="#">News</a> <a href="#">Clothing</a> <a href="#">Shopping</a>
-                        <a href="#">Sports</a> <a href="#">Games</a>
+                        <div class="tages-section">
+                              <a href="#">Travel</a> <a href="#">New York</a> <a href="#">London</a>
+                              <a href="#">IKEA</a> <a href="#">Norway</a> <a href="#">DIY</a>
+                              <a href="#">Ideas</a> <a href="#">Baby</a> <a href="#">Family</a>
+                              <a href="#">News</a> <a href="#">Clothing</a> <a href="#">Shopping</a>
+                              <a href="#">Sports</a> <a href="#">Games</a>
+                        </div>
                   </div>
             </div>
       </div>
