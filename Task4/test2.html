@@ -4,145 +4,202 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>קצת על מוראל</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>השעון מתקתק...</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
         body {
-            background-color: #f8f9fa;
+            background-color: #ffeeee;
             font-family: Arial, sans-serif;
         }
 
-        .twelth-setion .custom-card {
+        .fourteenth-section .container {
             background-color: transparent;
-            background-image: radial-gradient(at center center, #DE5D72 0%, #6B1624 100%);
-            color: white;
-            border-radius: 71px 71px 71px 71px;
-            padding-top: 60px;
-            padding-bottom: 44px;
-            padding-left: 70px;
-            padding-right: 79px;
-            max-width: 1340px;
-            margin: auto;
+            background-image: linear-gradient(270deg, #FFFFFF 0%, #FFEBEB 100%);
+            padding: 50px;
+            border-radius: 15px;
+            max-width: 1140px;
+            margin: 80px auto;
+            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+            display: flex;
+            justify-content: center;
+            text-align: center;
             position: relative;
         }
 
-        .twelth-setion .header-content {
-            color: #FEFAFA;
-            font-family: "Open Sans Hebrew", Sans-serif;
-            font-size: 23px;
-            font-weight: 400;
-            line-height: 31.32px;
+        .fourteenth-section .container-custom {
+            width: 50%;
         }
 
-        .twelth-setion .header-heading h2 {
+        .fourteenth-section .highlight-text h2 {
             font-family: "Open Sans Hebrew Condensed", Sans-serif;
-            font-size: 60px;
-            font-weight: 700;
-            line-height: 81.71px;
-            color: #FEFAFA
+            font-size: 68px;
+            font-weight: 800;
+            line-height: 45px;
+            color: #06193F;
         }
 
-        .twelth-setion .image-container {
-            position: absolute;
-            top: -50px;
-            left: 0;
-            width: 350px;
-            height: 57%;
-            z-index: 10;
+        .fourteenth-section .sub-text h2 {
+            font-family: "Open Sans Hebrew Condensed", Sans-serif;
+            font-size: 39px;
+            font-weight: 800;
+            line-height: 45px;
+            color: #06193F;
+            display: flex;
+            justify-content: center;
         }
 
-        .twelth-setion .image-container img {
-            width: 100%;
-            height: 100%;
+        .fourteenth-section .price {
+            font-family: "Open Sans Hebrew Condensed", Sans-serif;
+            font-size: 93px;
+            font-weight: 800;
+            line-height: 45px;
+            color: #06193F;
         }
 
-
-        .twelth-setion .custom-card-p {
-            color: #FFFFFF;
-            font-family: "Open Sans", Sans-serif;
-            font-size: 23px;
+        .fourteenth-section .price-content {
+            text-align: right;
+            color: #06193F;
+            font-family: "Open Sans Hebrew", Sans-serif;
+            font-size: 18px;
             font-weight: 400;
-            line-height: 31px;
+            line-height: 21.79px;
         }
 
-        .twelth-setion .custom-card-pb {
-            color: #FFFFFF;
-            font-family: "Open Sans", Sans-serif;
+        .fourteenth-section .btn-custom {
+            background-color: transparent;
+            width: 100%;
+            font-family: "Open Sans Hebrew Condensed", Sans-serif;
             font-size: 23px;
             font-weight: 700;
-            line-height: 31px;
+            line-height: 31.32px;
+            fill: #FEFAFA;
+            color: #FEFAFA;
+            background-image: linear-gradient(29deg, #EF687E 0%, #6B1624 100%);
+            border-style: solid;
+            border-width: 0px 0px 0px 0px;
+            border-radius: 68px 68px 68px 68px;
+            padding: 14px 32px 14px 32px;
         }
 
-        @media (max-width: 768px) {
-            .twelth-setion .custom-card {
-                padding: 20px;
-                text-align: center;
-            }
+        .fourteenth-section .price-button-row {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px;
+        }
 
-            .twelth-setion .image-container {
-                position: relative;
-                width: 120px;
-                margin: auto;
-                display: block;
-            }
+        .fourteenth-section .arrow-content {
+            font-family: "Open Sans Hebrew", Sans-serif;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 21.79px;
+            color: #132B59;
+            position: absolute;
+            left: 32%;
+            top: 43%;
+        }
+
+        .fourteenth-section .arrow-img {
+            width: 80px;
+            margin-top: 15px;
+        }
+
+        .fourteenth-section .last-content {
+            text-align: center;
+            color: #06193F;
+            font-family: "Open Sans Hebrew Condensed", Sans-serif;
+            font-size: 15px;
+            font-weight: 400;
+            line-height: 20.43px;
+            margin: 6px 200px 0px 200px;
+        }
+
+        .fourteenth-section .devices {
+            width: 100%;
+        }
+
+        /* fifteenth section */
+        .fifteenth-section .footer-content h2 {
+            font-family: "Open Sans Hebrew Condensed", Sans-serif;
+            font-size: 22px;
+            font-weight: 600;
+            color: #000000;
+            text-align: center;
+        }
+
+        .fifteenth-section .footer-mail h2 {
+            font-family: "Open Sans Hebrew Condensed", Sans-serif;
+            font-size: 14px;
+            font-weight: 100;
+            color: #000000;
+            text-align: center;
+        }
+
+        .fifteenth-section .footer-link h2{
+            font-size: 18px;
+            font-weight: 500;
+            color: #000000;
+            text-align: center;
+            margin-bottom: 60px;
+        }
+        .fifteenth-section .footer-link h2 a{
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: 500;
+            color: #000000;
+            
         }
     </style>
 </head>
 
 <body>
-    <section class="twelth-setion">
-        <div class="container my-5">
-            <div class="custom-card">
-                <div class="image-container">
-                    <img src="https://academy.mhcoaching.co.il/wp-content/uploads/2024/05/image-254.png" alt="מוראל">
+    <section class="fourteenth-section">
+        <div class="container my-4">
+            <div class="container-custom my-5">
+                <div class="highlight-text">
+                    <h2>השעון מתקתק...</h2>
                 </div>
-                <div class="header-content">
-                    <p>מי אני בכלל שאעזור לך להשיג את התוצאות שאת מחפשת?</p>
+                <div class="sub-text my-4">
+                    <h2>יש לך הזדמנות להתחיל את השינוי שלך ממש עכשיו ב-</h2>
                 </div>
-                <div class="header-heading">
-                    <h2>קצת על מוראל</h2>
-                </div>
-                <div class="row content">
-                    <div class="col-md-5">
-                        <div class="custom-card-pb">
-                            <p>אני מוראל הלר<br>ואני מאמנת אישית, סופרת ומרצה שחיה בשליחות גדולה לעזור לאנשים.</p>
-                        </div>
-                        <div class="custom-card-p">
-                            <p>אחרי שעשיתי הסבה מעולם המכירות לעולם האימון, גיליתי שאני לא רק מצליחה לעזור לאנשים, אלא,
-                                שאני גם ממש טובה במקצוע. הגעתי למצב שהשם שלי הולך לפני והיומן שלי מתמלא עד אפס מקום
-                                חודשיים – שלושה קדימה.</p>
-                        </div>
-                        <div class="custom-card-p">
-                            <p>בעוד שהרגשתי סיפוק גדול על כך שאני עוזרת להמון אנשים להגיע לבהירות לגבי החיים שלהם ועוזרת
-                                להם להגיע לכל מטרה שהם רק הציבו לעצמם, הרגשתי שמשהו חסר.</p>
-                        </div>
-                        <div class="custom-card-p">
-                            <p>אני רוצה את הרמה הבאה.<br>אני רוצה לעזור לעוד אנשים. הרבה יותר.<br>אבל בין קליניקה מפוצצת
-                                לשני ילדים קטנטנים, למי יש זמן לחשוב אפילו איך אני עושה את זה?</p>
-                        </div>
+
+                <div class="price-button-row my-5">
+                    <p class="price mb-0">₪99</p>
+                    <div class="price-content">
+                        <p>לחודש,<br>ללא התחייבות, <br>בכפוף לתקנון.</p>
                     </div>
-                    <div class="col-md-5">
-                        <div class="custom-card-p">
-                            <p>ואז הנורא מכל קרה. ה-7 באוקטובר.<br>מעבר להתמודדות הקשה <br>שהמלחמה הביאה איתה</p>
-                        </div>
-                        <div class="custom-card-pb">
-                            <p>העסק שלי עצר מלכת… אבל <br>השקט היה בדיוק הזמן כדי לעבור <br>לרמה הבאה – וכך נולדה
-                                האקדמיה.</p>
-                        </div>
-                        <div class="custom-card-p">
-                            <p>במקום להיפגש עם אדם אחד אני <br>נפגשת עם קבוצה.</p>
-                            <p>וגם אם אנשים יושבים בשקט לאורך כל המפגש, פעם אחר פעם הם תמיד משתפים כמה הם למדו מהעבודה
-                                שלי עם אחרים.</p>
-                            <p>אחרי החודש הראשון באקדמיה שהיה פיילוט, הבטן שלי דיברה והיא אמרה שסוף סוף מצאתי את הייעוד
-                                המדוייק שלי.<br>אני יכולה ללמד אנשים, לפגוש אותם, לאמן אותם, לעזור להם להתקדם ולהרגיש את
-                                השינוי מפגישה לפגישה תוך כדי שהם חלק מקהילה מדהימה ותומכת.</p>
-                        </div>
-                    </div>
+                </div>
+                <button class="btn-custom">אני רוצה להתחיל!</button>
+                <img src="https://academy.mhcoaching.co.il/wp-content/uploads/2024/05/Group-320-1.svg" alt="Arrow"
+                    class="arrow-img">
+
+                <div class="arrow-content">
+                    <p>הצטרפי בקלות, תוכלי<br> לצפות מתי שאת רוצה!</p>
+                </div>
+                <img src="https://academy.mhcoaching.co.il/wp-content/uploads/2024/03/Group-4231.png" alt="Devices"
+                    class="devices">
+                <div class="last-content my-4">
+                    <p>המחיר הינו מחיר הטבה. מוראל שומרת לעצמה את הזכות להעלות את המחיר בכל עת.</p>
                 </div>
             </div>
         </div>
+
     </section>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- fifteenth section -->
+    <section class="fifteenth-section">
+        <div class="footer-content">
+            <h2 class="elementor-heading-title elementor-size-default">כל הזכויות שמורות למוראל הלר קאוצ׳ינג</h2>
+        </div>
+        <div class="footer-mail">
+            <h2 class="elementor-heading-title elementor-size-default">ניתן לפנות אלינו בכתובת המייל
+                office@mhcoaching.co.il</h2>
+        </div>
+        <div class="footer-link">
+        <h2><a href="https://academy.mhcoaching.co.il/takanon/">תקנון אתר | מדיניות</a></h2>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
