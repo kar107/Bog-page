@@ -3,25 +3,21 @@ body {
       font-family: 'Arial', sans-serif;
       
 }
-
 .hero-section {
       padding: 100px 0;
       text-align: right;
       position: relative;
 }
-
 .nav {
       height: 50px;
 }
-
 .video-wrapper {
       border-radius: 100px 100px 0px 100px;
-      height: 460px;
-      width: 580px;
+      height: 600px;
+      width: 600px;
       overflow: hidden;
       box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
-
 .enrollment-btn {
       background-color: #ff6584;
       color: #fff;
@@ -33,11 +29,9 @@ body {
       box-shadow: 5px 5px 15px 0px rgba(238.99999999999994, 122.99999999999999, 122.99999999999999, 0.43);
       font-size: 20px;
 }
-
 .enrollment-btn:hover {
       background-color: #ff476a;
 }
-
 .logo {
       position: absolute;
       top: 20px;
@@ -46,12 +40,10 @@ body {
       width: 190px;
       margin-right: -30px;
 }
-
 .arrow-img {
       width: 70px;
 
 }
-
 .apply-btn {
       background-color: #EF687E;
       color: #fff;
@@ -61,12 +53,10 @@ body {
       font-size: 30px;
       margin-top: 20px;
 }
-
 .apply-btn:hover {
       background-color: #ff476a;
       color: #fff;
 }
-
 p.display-4 {
       color: #06193F;
       font-family: "Open Sans Hebrew Condensed", Sans-serif;
@@ -75,14 +65,12 @@ p.display-4 {
       width: auto;
       line-height: 88px;
 }
-
 p.lead {
       color: #06193F;
       font-family: "Open Sans Hebrew", Sans-serif;
       font-size: 23px;
       line-height: 31.32px;
 }
-
 small {
       position: absolute;
       height: 100px;
@@ -94,13 +82,11 @@ small {
       line-height: 21.79px;
       text-align: center;
 }
-
 .arrow-img {
       position: absolute;
       right: 290px;
       top: 650px;
 }
-
 .social-icons {
       position: absolute;
       top: 40px;
@@ -109,16 +95,13 @@ small {
       gap: 30px;
       font-size: 24px;
 }
-
 .social-icons a {
       color: #ff6584;
       text-decoration: none;
 }
-
 .social-icons a:hover {
       color: #ff476a;
 }
-
 @keyframes bounce {
 
       0%,
@@ -149,23 +132,19 @@ small {
       color: #333;
       display: inline-block;
 }
-
 .floating-btn.text-end:hover {
       transform: scale(1.08);
       box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
 }
-
 .floating-container {
       position: relative;
       min-height: 100vh;
 }
-
 .floating-container img {
       position: absolute;
       width: 300px;
       transition: transform 0.5s;
 }
-
 .whatsapp-btn {
       position: fixed;
       bottom: 20px;
@@ -180,11 +159,9 @@ small {
       transition: transform 0.3s;
       z-index: 999;
 }
-
 .whatsapp-btn:hover {
       transform: scale(1.1);
 }
-
 .gradient-section {
       background-color: transparent;
       background-image: radial-gradient(at center center, #DC556B 0%, #6B1624 100%);
@@ -197,23 +174,19 @@ small {
 
       position: relative;
 }
-
 .gradient-section h2 {
       font-size: 3rem;
       font-weight: bold;
       margin-bottom: 30px;
 }
-
 .gradient-section p {
       font-size: 1.2rem;
       line-height: 1.8;
       margin-bottom: 20px;
 }
-
 .gradient-section strong {
       color: #ffffff;
 }
-
 .image-content h4 strong {
       color: #FFFFFF;
       font-family: "Open Sans", Sans-serif;
@@ -222,7 +195,6 @@ small {
       line-height: 31.32px;
       bottom: -78px;
 }
-
 .image-content h4 {
       color: #FFFFFF;
       font-family: "Open Sans Hebrew", Sans-serif;
@@ -235,7 +207,6 @@ small {
       left: 32%;
       z-index: 1;
 }
-
 .founder-img {
       width: 320px;
       border-radius: 0px 0px 0px 71px;
@@ -259,13 +230,11 @@ small {
       border-radius: 71px 71px 71px 71px;
 
   }
-
   .card img {
       width: 100%;
       height: auto;
       border-radius: 0;
   }
-
   .card .badge {
       font-family: "Open Sans Hebrew Condensed", Sans-serif;
       font-size: 23px;
@@ -281,7 +250,6 @@ small {
       background-color: #EF687E;
       border-radius: 28px 28px 28px 28px;
   }
-
   .card .badge-danger {
       font-family: "Open Sans Hebrew Condensed", Sans-serif;
       font-size: 23px;
@@ -294,7 +262,6 @@ small {
       border-radius: 28px 28px 28px 28px;
       padding: 12px 32px 12px 32px;
   }
-
   .card .badge-secondary {
       font-family: "Open Sans Hebrew Condensed", Sans-serif;
       font-size: 23px;
@@ -307,7 +274,6 @@ small {
       border-radius: 28px 28px 28px 28px;
       padding: 12px 32px 12px 32px;
   }
-
   .card h3 {
       color: #06193F;
       font-family: "Open Sans Hebrew Condensed", Sans-serif;
@@ -318,13 +284,11 @@ small {
       justify-content: center;
       text-align: center;
   }
-
   .card ul {
       padding-left: 0;
       font-size: 100%;
       margin-top: 60px;
   }
-
   .card ul li {
       list-style: none;
       margin-bottom: 10px;
@@ -333,16 +297,13 @@ small {
       font-size: 20px;
       color: #0f1010;
   }
-
   .card ul li i {
       margin-left: 10px;
       font-size: 18px;
   }
-
   .card .icon-check {
       color: #38c172;
   }
-
   .card .icon-cross {
       color: #dc3545;
   }
@@ -352,31 +313,26 @@ small {
    .fourth-section .card {
       margin-top: 40px;
   }
-
   .fourth-section .card h2 {
       font-family: "Open Sans Hebrew Condensed", Sans-serif;
       font-size: 41px;
       font-weight: 700;
       line-height: 55.83px;
   }
-
   .fourth-section .card p {
       color: #333;
       line-height: 1.6;
   }
-
   .icon {
       font-size: 2rem;
       color: #ff6b6b;
   }
-
   .puzzle-img {
       /* width: 100%; */
       display: flex;
       max-width: 350px;
   }
-
-  .header-fourth h1 {
+ .header-fourth h1 {
       color: #0e0f10;
       font-family: 'Open Sans Hebrew Condensed', Sans-serif;
       font-size: 60px;
@@ -391,30 +347,25 @@ small {
             padding: 2rem;
 
       }
-
       .announcement h2 {
             font-family: "Open Sans Hebrew Condensed", Sans-serif;
             font-size: 41px;
             font-weight: 700;
             line-height: 55.83px;
       }
-
       .announcement p {
             color: #002e5b;
             line-height: 1.6;
       }
-
       .announcement .icon {
             font-size: 2rem;
       }
-
   /* third div */
   .dropdown-container {
       background: #FFEFEF;
       border-radius: 10px;
       padding: 10px;
   }
-
   .dropdown-item {
       background-color: transparent;
       color: #06193F;
@@ -435,7 +386,6 @@ small {
       justify-content: space-between;
       align-items: center;
   }
-
   .dropdown-content {
       display: none;
       border: 1px solid #CC9B9B;
@@ -444,7 +394,6 @@ small {
       padding-left: 30px;
       padding-right: 30px;
   }
-
   .accordion-item-main {
       width: 100%;
       display: flex;
@@ -453,19 +402,16 @@ small {
       margin-bottom: 10px;
       border-radius: 20px;
   }
-
   .accordion-item-title {
       width: 50%;
       display: flex;
       align-items: center;
   }
-
   .accordion-item-img {
 
       width: 26px;
       height: 26px !important;
   }
-
   .accordion-item-title h1 {
       font-size: 23px;
       color: #06193F;
@@ -475,14 +421,12 @@ small {
       margin: 0;
       margin-right: 14px;
   }
-
   .accordion-item-time {
       width: 50%;
       display: flex;
       align-items: center;
       justify-content: end;
   }
-
   .accordion-item-time img {
       height: auto;
       max-width: 100%;
@@ -490,7 +434,6 @@ small {
       border-radius: 0;
       box-shadow: none;
   }
-
   .accordion-item-time h1 {
       font-size: 23px;
       color: #9C6060;
@@ -500,7 +443,6 @@ small {
       margin: 0;
       margin-right: 14px;
   }
-
   .third .text-start {
       color: #06193F;
       font-family: "Open Sans Hebrew Condensed", Sans-serif;
@@ -517,16 +459,13 @@ small {
             justify-content: center;
             display: flex;
       }
-
       .fourth .carousel {
             height: 345px;
             width: 345px;
       }
-
       .slider-img {
             border-radius: 15px;
       }
-
       .content-section h2 {
             font-family: "Open Sans Hebrew Condensed", Sans-serif;
             font-size: 41px;
@@ -534,11 +473,9 @@ small {
             line-height: 55.83px;
             /* padding-left: 50px; */
       }
-
       .content-section p {
             line-height: 1.8;
       }
-
       .carousel-control-prev,
       .carousel-control-next {
             width: 25px;
@@ -549,16 +486,13 @@ small {
             top: 60%;
             transform: translateY(-50%);
       }
-
       .carousel-control-prev {
             /* left: -40px; */
             right: 100%;
       }
-
       .carousel-control-next {
             right: -30px;
       }
-
       .carousel-control-prev-icon,
       .carousel-control-next-icon {
             background: none;
@@ -567,18 +501,15 @@ small {
             padding: 3px;
             justify-content: center;
       }
-
       .carousel-indicators {
             bottom: -70px;
       }
-
       .carousel-indicators [data-bs-target] {
             width: 10px;
             height: 10px;
             border-radius: 50%;
             background-color: #d06a6a;
       }
-
       .carousel-indicators .active {
             background-color: #ab140f;
       }
@@ -596,7 +527,6 @@ small {
             justify-content: center;
             background-color: #FCDADA;
       }
-
       .fifth .image-container img {
             width: 85%;
             height: auto;
@@ -610,7 +540,6 @@ small {
       overflow: hidden;
       margin-bottom: 10px;
   }
-
   .fifth-section .play-button {
       position: absolute;
       top: 50%;
@@ -620,20 +549,17 @@ small {
       color: white;
       opacity: 0.8;
   }
-
   .fifth-section .rating-stars {
       color: #ffc107;
       font-size: 24px;
       margin-top: 10px;
   }
-
   .fifth-section .card1 .card-title1 {
       font-size: 23px;
       font-weight: 700;
       line-height: 31.32px;
       color: #06193F;
   }
-
   .fifth-section .card1 .card-body1 ul {
       text-align: center;
       color: #06193F;
@@ -749,6 +675,7 @@ small {
   #eighth-section .card2 h2 {
       font-size: 30px;
       font-weight: 700;
+      padding: 0px 4px;
       line-height: 40.85px;
       color: #06193F;
   }
@@ -772,11 +699,11 @@ small {
   #eighth-section .card-footer .card-footer-h2 {
       font-size: 20px;
       font-weight: 700;
-      line-height: 27.24px;
       color: #B74F4F;
       display: flex;
-      padding: 30px;
+      padding: 10px;
       justify-content: start;
+      margin: 0;
   }
 
   #eighth-section .card-footer .card-footer-content {
@@ -794,3 +721,311 @@ small {
       font-weight: 400;
       line-height: 21.79px;
   }
+   /* ninth section */
+   .ninth-section {
+      position: relative;
+      max-width: 1340px;
+      margin: auto;
+      overflow: hidden;
+  }
+
+  .ninth-section .card-custom {
+      background-color: transparent;
+      background-image: radial-gradient(at center left, #DC556B 30%, #6B1624 100%);
+      color: white;
+      border-radius: 71px;
+      height: auto;
+      width: 100%;
+      /* padding: 30px; */
+      padding-top: 60px;
+      padding-bottom: 60px;
+      padding-left: 60px;
+      padding-right: 98px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+
+  .ninth-section .card-custom .super-Woman {
+      position: absolute;
+      top: 50px;
+      left: 74px;
+      border-radius: 71px 71px 71px 71px;
+      width: 420px;
+      height: 517px;
+      overflow: hidden;
+  }
+
+  .card-custom-h1 h1 {
+      font-size: 60px;
+      font-weight: 700;
+      line-height: 81.71px;
+      color: #FFFFFF;
+  }
+
+  .card-custom-p {
+      color: #FFFFFF;
+      font-size: 23px;
+      font-weight: 400;
+      width: 90%;
+      line-height: 27.24px;
+  }
+
+  .card-custom-p1 {
+      color: #FFFFFF;
+      font-family: "Open Sans Hebrew", Sans-serif;
+      font-size: 23px;
+      font-weight: 400;
+      width: 90%;
+      line-height: 27.24px;
+  }
+
+  .card-custom-p2 {
+      color: #FFFFFF;
+      font-family: "Open Sans Hebrew", Sans-serif;
+      font-size: 23px;
+      font-weight: 400;
+      width: 90%;
+      line-height: 27.24px;
+  }
+
+  .card-custom-p3 {
+      color: #FFFFFF;
+      font-family: "Open Sans Hebrew", Sans-serif;
+      font-size: 20px;
+      font-weight: 400;
+      width: 90%;
+      line-height: 27.24px;
+  }
+
+  /* tenth-section */
+  .tenth-section {
+      position: relative;
+      max-width: 1340px;
+      margin: auto;
+      overflow: hidden;
+  }
+
+  .tenth-section .container {
+
+      width: 100%;
+  }
+
+  .tenth-section .row {
+      background-color: #D6A3A32B;
+      margin: auto;
+      margin-top: -180px;
+      padding-top: 200px;
+      border-radius: 85px;
+      width: 100%;
+      z-index: 1;
+  }
+
+  .row h2 {
+      font-family: "Open Sans Hebrew Condensed", Sans-serif;
+      font-size: 60px;
+      font-weight: 700;
+      line-height: 81.71px;
+      color: #06193F;
+      text-align: center;
+      margin-bottom: 40px;
+
+  }
+
+  .tenth-section .offer-card {
+      background-color: #FEFAFA;
+      display: flex;
+      flex-direction: column;
+      width: 660px;
+      border-radius: 27px 27px 27px 27px;
+      box-shadow: 0px 0px 10px 5px rgba(100.00000000000001, 17.999999999999964, 17.000000000000007, 0.1803921568627451);
+      padding-top: 43px;
+      padding-bottom: 43px;
+      padding-left: 34px;
+      padding-right: 34px;
+      justify-content: center;
+      align-items: center;
+      margin: auto;
+  }
+
+  .tenth-section .offer-card-a a {
+      background-color: transparent;
+      font-family: "Open Sans Hebrew", Sans-serif;
+      font-size: 20px;
+      font-weight: 700;
+      line-height: 21.79px;
+      fill: #FEFAFA;
+      color: #FEFAFA;
+      background-image: linear-gradient(29deg, #EF687E 0%, #6B1624 100%);
+      border-style: solid;
+      border-width: 0px 0px 0px 0px;
+      border-radius: 68px 68px 68px 68px;
+      padding: 13px 26px 13px 26px;
+      text-decoration: none;
+  }
+
+  .offer-card-a {
+      margin: -50px 0px 0px 0px;
+  }
+
+  .offer-card-h2 h2 {
+      font-family: "Open Sans Hebrew Condensed", Sans-serif;
+      font-size: 33px;
+      font-weight: 700;
+      line-height: 44.94px;
+      color: #06193F;
+      margin-top: 60px;
+  }
+
+  .offer-card-button {
+      background-color: transparent;
+      font-family: "Open Sans Hebrew Condensed", Sans-serif;
+      font-size: 23px;
+      font-weight: 700;
+      line-height: 31.32px;
+      background-image: linear-gradient(29deg, #EF687E 0%, #6B1624 100%);
+      border-style: solid;
+      border-width: 0px 0px 0px 0px;
+      border-radius: 68px 68px 68px 68px;
+      box-shadow: 0px 0px 13px 1px rgba(0, 0, 0, 0.5);
+      padding: 14px 32px 14px 32px;
+      width: 100%;
+      text-align: center;
+  }
+
+  .offer-card-p {
+      margin-top: 71px;
+      text-align: center;
+      color: #06193F;
+      font-family: "Open Sans Hebrew", Sans-serif;
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 21.79px;
+      width: 95%;
+  }
+
+  /* eleventh section */
+  .success-card {
+    border: 1px solid #B9B9B9;
+    border-radius: 24px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #FEFAFA;
+    overflow: hidden;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.success-card-h5 h5 {
+    font-family: "Open Sans Hebrew Condensed", Sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    color: #000000;
+}
+
+.success-card-h2 h2 {
+    font-family: "Open Sans Hebrew Condensed", Sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 25px;
+    color: #000000;
+}
+
+.success-card p {
+    font-size: 1rem;
+}
+
+.success-card .stars {
+    color: #ffcc00;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.success-card-p p {
+    font-family: "Open Sans Hebrew Condensed", Sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    color: #000000;
+}
+
+.eleventh-section iframe {
+    width: 100%;
+    height: 250px;
+    border-radius: 20px;
+}
+
+/* twelth section */
+.twelth-setion .custom-card {
+    background-color: transparent;
+    background-image: radial-gradient(at center center, #DE5D72 0%, #6B1624 100%);
+    color: white;
+    border-radius: 71px 71px 71px 71px;
+    padding-top: 60px;
+    padding-bottom: 44px;
+    padding-left: 70px;
+    padding-right: 79px;
+    max-width: 1340px;
+    margin: auto;
+    position: relative;
+}
+
+.twelth-setion .header-content {
+    color: #FEFAFA;
+    font-family: "Open Sans Hebrew", Sans-serif;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 31.32px;
+}
+
+.twelth-setion .header-heading h2 {
+    font-family: "Open Sans Hebrew Condensed", Sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 81.71px;
+    color: #FEFAFA
+}
+
+.twelth-setion .image-container {
+    position: absolute;
+    top: -50px;
+    left: 0;
+    width: 350px;
+    height: 57%;
+    z-index: 10;
+}
+
+.twelth-setion .image-container img {
+    width: 100%;
+    height: 100%;
+}
+
+
+.twelth-setion .custom-card-p {
+    color: #FFFFFF;
+    font-family: "Open Sans", Sans-serif;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 31px;
+}
+
+.twelth-setion .custom-card-pb {
+    color: #FFFFFF;
+    font-family: "Open Sans", Sans-serif;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 31px;
+}
+
+@media (max-width: 768px) {
+    .twelth-setion .custom-card {
+        padding: 20px;
+        text-align: center;
+    }
+
+    .twelth-setion .image-container {
+        position: relative;
+        width: 120px;
+        margin: auto;
+        display: block;
+    }
+}
