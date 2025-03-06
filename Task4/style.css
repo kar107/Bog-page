@@ -196,14 +196,15 @@ small {
 }
 
 .whatsapp-btn {
+    font-family: 'OpenSansHebrewRegular',sans-serif;
     position: fixed;
     bottom: 20px;
     right: 20px;
     background-color: #25D366;
     color: white;
     border-radius: 50px;
-    padding: 5px 20px;
-    font-size: 24px;
+    padding: 5px 24px;
+    font-size: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     text-decoration: none;
     transition: transform 0.3s;
@@ -665,6 +666,7 @@ small {
 .fifth {
     margin: auto;
     padding-bottom: 10px;
+    height: auto;
 }
 
 .fifth .row {
@@ -675,11 +677,15 @@ small {
     align-items: center;
     justify-content: center;
     background-color: #FCDADA;
+    margin: -72px;
+    margin-top: 10px;
 }
 
 .fifth .image-container img {
-    width: 85%;
+    width: 88%;
     height: auto;
+    margin-right: 50px;
+    margin-top: 30px;
 }
 
 /* fifth section */
@@ -709,16 +715,18 @@ small {
 }
 
 .fifth-section .card1 .card-title1 {
+    font-family: 'OpenSansHebrewCondensedExtraBold',sans-serif;
     font-size: 23px;
     font-weight: 700;
     line-height: 31.32px;
+    letter-spacing: 1.6px;
     color: #06193F;
 }
 
 .fifth-section .card1 .card-body1 ul {
     text-align: center;
     color: #06193F;
-    font-family: "Open Sans Hebrew Condensed", Sans-serif;
+    font-family: "OpenSansHebrewCondensedBold", Sans-serif;
     font-size: 17px;
     font-weight: 600;
     line-height: 23.15px;
@@ -743,6 +751,7 @@ small {
 }
 
 .sixth-section .video-section1 h1 {
+    font-family: 'OpenSansHebrewCondensedBold',sans-serif;
     font-size: 60px;
     font-weight: 700;
     line-height: 81.71px;
@@ -777,22 +786,24 @@ small {
 }
 
 .seventh-section .rating-stars {
-    color: #ffc107;
+    color: #e19300;
     font-size: 24px;
     margin-top: 10px;
 }
 
 .seventh-section .card1 .card-title1 {
+    font-family: 'OpenSansHebrewCondensedExtraBold',sans-serif;
     font-size: 23px;
     font-weight: 700;
     line-height: 31.32px;
+    letter-spacing: 1.6px;
     color: #06193F;
 }
 
 .seventh-section .card1 .card-body1 ul {
     text-align: center;
     color: #06193F;
-    font-family: "Open Sans Hebrew Condensed", Sans-serif;
+    font-family: "OpenSansHebrewCondensedBold", Sans-serif;
     font-size: 17px;
     font-weight: 600;
     line-height: 23.15px;
@@ -800,7 +811,7 @@ small {
 
 /* eighth section */
 #eighth-section .header {
-    font-family: "Open Sans Hebrew Condensed", Sans-serif;
+    font-family: "OpenSansHebrewCondensedBold", Sans-serif;
     font-size: 60px;
     font-weight: 700;
     line-height: 81.71px;
@@ -820,7 +831,7 @@ small {
 
 #eighth-section .card2 img {
     width: 85px;
-    padding-top: 40px;
+    padding-top: 33px;
     margin-bottom: 15px;
     display: block;
     margin-left: auto;
@@ -828,6 +839,7 @@ small {
 }
 
 #eighth-section .card2 h2 {
+    font-family: 'OpenSansHebrewCondensedBold',sans-serif;
     font-size: 30px;
     font-weight: 700;
     padding: 0px 4px;
@@ -836,6 +848,7 @@ small {
 }
 
 #eighth-section .card2 .card-p {
+    font-family: 'OpenSansHebrewRegular',sans-serif;
     padding: 44px 0px 0px 0px;
     color: #06193F;
     font-size: 20px;
@@ -847,13 +860,13 @@ small {
 
     border-radius: 0px 0px 48px 48px;
     background-color: #F9F0F0;
-    height: 300px;
+    height: 240px;
     max-width: 100%;
 }
 
 #eighth-section .card-footer .card-footer-h2 {
     font-size: 20px;
-    font-weight: 700;
+    font-family: 'OpenSansHebrewCondensedBold',sans-serif;
     color: #B74F4F;
     display: flex;
     padding: 10px;
@@ -863,7 +876,7 @@ small {
 
 #eighth-section .card-footer .card-footer-content {
     color: #06193F;
-    font-family: "Open Sans Hebrew", Sans-serif;
+    font-family: "OpenSansHebrewCondensedBold", Sans-serif;
     font-size: 20px;
     font-weight: 700;
     line-height: 27.24px;
@@ -871,7 +884,7 @@ small {
 
 #eighth-section .card-footer .card-footer-p {
     color: #06193F;
-    font-family: "Open Sans Hebrew", Sans-serif;
+    font-family: "OpenSansHebrewRegular", Sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 21.79px;
@@ -880,7 +893,6 @@ small {
 /* ninth section */
 .ninth-section {
     position: relative;
-    max-width: 1340px;
     margin: auto;
     overflow: hidden;
 }
@@ -892,7 +904,6 @@ small {
     border-radius: 71px;
     height: auto;
     width: 100%;
-    /* padding: 30px; */
     padding-top: 60px;
     padding-bottom: 60px;
     padding-left: 60px;
@@ -903,7 +914,7 @@ small {
 .ninth-section .card-custom .super-Woman {
     position: absolute;
     top: 50px;
-    left: 74px;
+    left: 12px;
     border-radius: 71px 71px 71px 71px;
     width: 420px;
     height: 517px;
@@ -911,33 +922,36 @@ small {
 }
 
 .card-custom-h1 h1 {
+    font-family: 'OpenSansHebrewCondensedBold',sans-serif;
     font-size: 60px;
     font-weight: 700;
     line-height: 81.71px;
+    margin-bottom: 35px;
     color: #FFFFFF;
 }
 
 .card-custom-p {
+    font-family: "OpenSansHebrewRegular", Sans-serif;
     color: #FFFFFF;
-    font-size: 23px;
+    font-size: 20px;
     font-weight: 400;
-    width: 90%;
+    width: 97%;
     line-height: 27.24px;
 }
 
 .card-custom-p1 {
     color: #FFFFFF;
-    font-family: "Open Sans Hebrew", Sans-serif;
-    font-size: 23px;
+    font-family: "OpenSansHebrewRegular", Sans-serif;
+    font-size: 20px;
     font-weight: 400;
-    width: 90%;
+    width: 95%;
     line-height: 27.24px;
 }
 
 .card-custom-p2 {
     color: #FFFFFF;
-    font-family: "Open Sans Hebrew", Sans-serif;
-    font-size: 23px;
+    font-family: "OpenSansHebrewRegular", Sans-serif;
+    font-size: 20px;
     font-weight: 400;
     width: 90%;
     line-height: 27.24px;
@@ -945,7 +959,7 @@ small {
 
 .card-custom-p3 {
     color: #FFFFFF;
-    font-family: "Open Sans Hebrew", Sans-serif;
+    font-family: "OpenSansHebrewRegular", Sans-serif;
     font-size: 20px;
     font-weight: 400;
     width: 90%;
@@ -955,7 +969,7 @@ small {
 /* tenth-section */
 .tenth-section {
     position: relative;
-    max-width: 1340px;
+    max-width: 1200px;
     margin: auto;
     overflow: hidden;
 }
@@ -965,7 +979,7 @@ small {
     width: 100%;
 }
 
-.tenth-section .row {
+.tenth-section .zx {
     background-color: #D6A3A32B;
     margin: auto;
     margin-top: -180px;
@@ -976,13 +990,13 @@ small {
 }
 
 .row h2 {
-    font-family: "Open Sans Hebrew Condensed", Sans-serif;
+    font-family: "OpenSansHebrewCondensedBold", Sans-serif;
     font-size: 60px;
     font-weight: 700;
     line-height: 81.71px;
     color: #06193F;
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 
 }
 
@@ -990,7 +1004,7 @@ small {
     background-color: #FEFAFA;
     display: flex;
     flex-direction: column;
-    width: 660px;
+    width: 585px;
     border-radius: 27px 27px 27px 27px;
     box-shadow: 0px 0px 10px 5px rgba(100.00000000000001, 17.999999999999964, 17.000000000000007, 0.1803921568627451);
     padding-top: 43px;
@@ -1004,8 +1018,8 @@ small {
 
 .tenth-section .offer-card-a a {
     background-color: transparent;
-    font-family: "Open Sans Hebrew", Sans-serif;
-    font-size: 20px;
+    font-family: "OpenSansHebrewCondensedBold", Sans-serif;
+    font-size: 16px;
     font-weight: 700;
     line-height: 21.79px;
     fill: #FEFAFA;
@@ -1014,8 +1028,9 @@ small {
     border-style: solid;
     border-width: 0px 0px 0px 0px;
     border-radius: 68px 68px 68px 68px;
-    padding: 13px 26px 13px 26px;
+    padding: 10px 30px 10px 30px;
     text-decoration: none;
+    letter-spacing: 1px;
 }
 
 .offer-card-a {
@@ -1023,17 +1038,18 @@ small {
 }
 
 .offer-card-h2 h2 {
-    font-family: "Open Sans Hebrew Condensed", Sans-serif;
+    font-family: "OpenSansHebrewCondensedBold", Sans-serif;
     font-size: 33px;
     font-weight: 700;
     line-height: 44.94px;
     color: #06193F;
-    margin-top: 60px;
+    margin-top: 57px;
+    margin-bottom: 40px;
 }
 
 .offer-card-button {
     background-color: transparent;
-    font-family: "Open Sans Hebrew Condensed", Sans-serif;
+    font-family: "OpenSansHebrewCondensedBold", Sans-serif;
     font-size: 23px;
     font-weight: 700;
     line-height: 31.32px;
@@ -1048,16 +1064,15 @@ small {
 }
 
 .offer-card-p {
-    margin-top: 71px;
+    margin-top: 93px;
     text-align: center;
     color: #06193F;
-    font-family: "Open Sans Hebrew", Sans-serif;
-    font-size: 20px;
+    font-family: "OpenSansHebrewRegular", Sans-serif;
+    font-size: 18px;
     font-weight: 400;
     line-height: 21.79px;
-    width: 95%;
+    width: 96%;
 }
-
 /* eleventh section */
 .success-card {
     border: 1px solid #B9B9B9;
@@ -1073,32 +1088,42 @@ small {
 }
 
 .success-card-h5 h5 {
-    font-family: "Open Sans Hebrew Condensed", Sans-serif;
+    font-family: "OpenSansHebrewCondensedBold", Sans-serif;
     font-size: 25px;
     font-weight: 600;
     color: #000000;
+    letter-spacing: 0.2px;
 }
 
 .success-card-h2 h2 {
-    font-family: "Open Sans Hebrew Condensed", Sans-serif;
+    font-family: "OpenSansHebrewCondensedBold", Sans-serif;
     font-size: 18px;
     font-weight: 600;
     line-height: 25px;
+    letter-spacing: 0.6px;
     color: #000000;
+    display: flex;
+    width: 98%;
+    justify-content: center;
+    align-items: center;
 }
 
 .success-card p {
     font-size: 1rem;
-}
-
-.success-card .stars {
-    color: #ffcc00;
-    font-size: 30px;
+    margin-top: -4px;
     margin-bottom: 10px;
 }
 
+.success-card .stars {
+    color: #de9905;
+    font-size: 28px;
+    margin-bottom: 10px;
+    letter-spacing: -0.5px;
+    margin-top: -28px;
+}
+
 .success-card-p p {
-    font-family: "Open Sans Hebrew Condensed", Sans-serif;
+    font-family: "OpenSansHebrewCondensedBold", Sans-serif;
     font-size: 25px;
     font-weight: 600;
     color: #000000;
