@@ -1362,8 +1362,8 @@ small {
 
 .fourteenth-section .btn-custom {
     background-color: transparent;
-    width: 100%;
-    font-family: "Open Sans Hebrew Condensed", Sans-serif;
+    /* width: 100%; */
+    font-family: "OpenSansHebrewCondensedBold", Sans-serif;
     font-size: 23px;
     font-weight: 700;
     line-height: 31.32px;
@@ -1373,7 +1373,9 @@ small {
     border-style: solid;
     border-width: 0px 0px 0px 0px;
     border-radius: 68px 68px 68px 68px;
-    padding: 14px 32px 14px 32px;
+    margin-top: 40px;
+    margin-right: -20px;
+    padding: 14px 172px 14px 172px;
 }
 
 .fourteenth-section .price-button-row {
@@ -1381,32 +1383,32 @@ small {
     align-items: center;
     justify-content: center;
     gap: 40px;
-    /* margin-top: 20px; */
     margin-top: 60px;
     padding-top: 28px;
     margin-right: -70px;
 }
 
 .fourteenth-section .arrow-content {
-    font-family: "Open Sans Hebrew", Sans-serif;
+    font-family: "OpenSansHebrewRegular", Sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 21.79px;
     color: #132B59;
     position: absolute;
-    left: 32%;
+    left: 34%;
     top: 43%;
 }
 
 .fourteenth-section .arrow-img1 {
     width: 80px;
-    margin-top: 15px;
+    margin-top: -8px;
+    margin-left: 15px;
 }
 
 .fourteenth-section .last-content {
     text-align: center;
     color: #06193F;
-    font-family: "Open Sans Hebrew Condensed", Sans-serif;
+    font-family: "OpenSansHebrewRegular", Sans-serif;
     font-size: 15px;
     font-weight: 400;
     line-height: 20.43px;
@@ -1414,24 +1416,30 @@ small {
 }
 
 .fourteenth-section .devices {
-    width: 100%;
+    width: 97%;
+    display: flex;
+    margin-top: -40px;
+    margin-right: -10px;
+
 }
 
 /* fifteenth section */
 .fifteenth-section .footer-content h2 {
-    font-family: "Open Sans Hebrew Condensed", Sans-serif;
+    font-family: "OpenSansHebrewCondensedBold", Sans-serif;
     font-size: 22px;
     font-weight: 600;
     color: #000000;
     text-align: center;
+    margin-top: 30px;
 }
 
 .fifteenth-section .footer-mail h2 {
-    font-family: "Open Sans Hebrew Condensed", Sans-serif;
+    font-family: "OpenSansHebrewRegular", Sans-serif;
     font-size: 14px;
     font-weight: 100;
     color: #000000;
     text-align: center;
+    letter-spacing: -1px;
 }
 
 .fifteenth-section .footer-link h2 {
@@ -1444,8 +1452,10 @@ small {
 
 .fifteenth-section .footer-link h2 a {
     text-decoration: none;
+    font-family: 'OpenSansHebrewRegular';
     font-size: 18px;
     font-weight: 500;
     color: #060606;
+    letter-spacing: -1px;
 
 }
