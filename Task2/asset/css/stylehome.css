@@ -1,0 +1,25 @@
+body{
+      font-family: 'Times New Roman', Times, serif;
+
+  }
+  .card-h3 h3 {
+  background-color: #e8e8e8;
+  padding: 10px;
+  font-size: 25px;
+  margin: 0;
+  width: 100%;
+}
+.content {
+        background: white;
+        height: auto;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+        
+  }
+  .tags a {
+
+        background: #f2f2f2;
+        padding: 5px 10px;
+        margin: 5px;
+        text-decoration: none;
+        color: black;
+  }
