@@ -502,7 +502,6 @@ body {
 }
 
 .content-box h5 {
-
       font-family: 'Poppins-Medium',sans-serif;
       color: #333;
       display: flex;
@@ -529,14 +528,23 @@ body {
 .content-box1 p {
       font-size: 16px;
       font-weight: 400;
-      color: #555;
-      line-height: 1.6;
+      font-family: 'interregular',sans-serif;
+      color: #000000E6;
+      line-height: 24px;
+      text-align: right;
+      margin-bottom: 30px;
+
 }
 .content-box p {
+      color: #000000E6;
+      font-family: 'interregular', Sans-serif;
       font-size: 16px;
       font-weight: 400;
-      color: #555;
-      line-height: 1.6;
+      line-height: 24px;
+      text-align: right;
+}
+.fourthsectionclass{
+      align-items: start !important;
 }
 
 .image-box {
