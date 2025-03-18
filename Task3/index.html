@@ -12,18 +12,23 @@
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 <nav class="navbar navbar-light bg-white">
-    <div class="container my-4">
-        <img src="asset/images/logo.png" alt="">
-        <!-- Contact Us Button -->
-        <div class="d-flex ms-auto">
-            <button class="contact btn btn-lg"
-                style="background: radial-gradient(117.59% 927.77% at 108.24% 283.1%, #FF0062 26%, #FBAF3F 100%); color: aliceblue; border-radius: 50px;">Contact
-                Us</button>
+    <div class="container-fluid mt-4 d-flex">
+        <div class="row w-100 d-flex">
+            <div class="image-class col-md-6 col-sm-6 gx-0">
+                <img src="asset/images/logo.png" alt="">
+            </div>
+            <div class="button-class col-md-6 col-sm-6 d-flex gx-0" style="justify-content: flex-end;">
+                <div style="margin-right: -10px;">
+                    <button class="contact btn btn-lg"
+                        style="background: radial-gradient(117.59% 927.77% at 108.24% 283.1%, #FF0062 26%, #FBAF3F 100%); color: aliceblue; border-radius: 50px;">Contact
+                        Us</button>
+                </div>
+                <button style="margin-right: -20px; border: none; " class="navbar-toggler" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
         </div>
-
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-            <span class="navbar-toggler-icon"></span>
-        </button>
 
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
@@ -39,266 +44,278 @@
 <section class="firstsection">
     <div class="container" style="z-index: 0;">
         <div class="row full-width-row d-flex align-items-center">
-        <div class="banner col-lg-6">
-            <h1 class="banner-con">
-                Your
-                <span class="text-slide-container">
-                    <span class="text-slide-wrapper">
-                        <span class="text-slide">&nbsp;Sustainable Brand</span>
-                        <span class="text-slide">&nbsp;Sustainable Marketing</span>
-                        <span class="text-slide">&nbsp;Sustainable Brand</span> <!-- Repeat for smooth loop -->
-                    </span>
-                </span>
-            </h1>
-            <h2 class="banner-con1">Strategy Partner in Asia.</h2>
-            <p class="lead">We build IPO-ready brands, develop experiential marketing, and drive business growth.
-            </p>
-        </div>
-        
-        <div class="d-flex col-lg-6 hero-container">
-            <div class="hero"></div>
-        </div>
-        <div class="col-lg-6">
-            <div class="carousel-wrapper">
-                <div class="swiper myswiper">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide"><img
-                            src="https://brandsoul.best121.com/wp-content/uploads/2024/12/MDEC-11.png"
-                            alt="Image 1"></div>
-                            <div class="swiper-slide"><img
-                                src="https://brandsoul.best121.com/wp-content/uploads/2024/12/MDEC-12.png"
-                                alt="Image 2"></div>
-                                <div class="swiper-slide"><img
-                                    src="https://brandsoul.best121.com/wp-content/uploads/2024/12/MDEC-10.png"
-                                    alt="Image 3"></div>
-                                    <div class="swiper-slide"><img
-                                        src="https://brandsoul.best121.com/wp-content/uploads/2024/12/MDEC-9.png" alt="Image 4">
-                                    </div>
-                                    <div class="swiper-slide"><img
-                                        src="https://brandsoul.best121.com/wp-content/uploads/2024/12/MDEC-8.png" alt="Image 5">
-                                    </div>
-                        <div class="swiper-slide"><img
-                            src="https://brandsoul.best121.com/wp-content/uploads/2024/12/MDEC-7.png" alt="Image 6">
-                        </div>
-                        <div class="swiper-slide"><img
-                                src="https://brandsoul.best121.com/wp-content/uploads/2024/12/MDEC-6.png" alt="Image 7">
-                        </div>
-                        <div class="swiper-slide"><img
-                            src="https://brandsoul.best121.com/wp-content/uploads/2024/12/MDEC-5.png" alt="Image 8">
-                        </div>
-                        <div class="swiper-slide"><img
-                            src="https://brandsoul.best121.com/wp-content/uploads/2024/12/MDEC-11.png"
-                            alt="Image 1"></div>
-                            <div class="swiper-slide"><img
-                                src="https://brandsoul.best121.com/wp-content/uploads/2024/12/MDEC-12.png"
-                                alt="Image 2"></div>
-                                <div class="swiper-slide"><img
-                                src="https://brandsoul.best121.com/wp-content/uploads/2024/12/MDEC-10.png"
-                                alt="Image 3"></div>
-                                <div class="swiper-slide"><img
-                                    src="https://brandsoul.best121.com/wp-content/uploads/2024/12/MDEC-9.png" alt="Image 4">
-                                </div>
-                                <div class="swiper-slide"><img
-                                    src="https://brandsoul.best121.com/wp-content/uploads/2024/12/MDEC-8.png" alt="Image 5">
-                                </div>
-                                <div class="swiper-slide"><img
-                                src="https://brandsoul.best121.com/wp-content/uploads/2024/12/MDEC-7.png" alt="Image 6">
-                            </div>
-                        <div class="swiper-slide"><img
-                            src="https://brandsoul.best121.com/wp-content/uploads/2024/12/MDEC-6.png" alt="Image 7">
-                        </div>
-                        <div class="swiper-slide"><img
-                            src="https://brandsoul.best121.com/wp-content/uploads/2024/12/MDEC-5.png" alt="Image 8">
-                        </div>
-                    </div>
+            <div class="banner col-lg-7 px-4">
+                <div class="banner-class">
+                    <h1 class="banner-con">
+                        Your
+                        <span class="text-slide-container">
+                            <span class="text-slide-wrapper">
+                                <span class="text-slide">&nbsp;Sustainable Brand</span>
+                                <span class="text-slide">&nbsp;Sustainable Marketing</span>
+                                <span class="text-slide">&nbsp;Sustainable Brand</span> <!-- Repeat for smooth loop -->
+                            </span>
+                        </span>
+
+                    </h1>
+                    <h2 class="banner-con1">Strategy Partner in Asia.</h2>
+                </div>
+                <div class="banner-p">
+                    <p class="lead">We build IPO-ready brands, develop experiential marketing,<br> and
+                        drive business growth.
+                    </p>
                 </div>
             </div>
-        </div>
-        
-        <!-- Swiper JS -->
-        <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
-        
-        <script>
-            var swiper = new Swiper(".myswiper", {
-                slidesPerView: 'auto',   // Automatically adjusts number of slides visible
-                spaceBetween: 20,        // Space between slides
-                loop: true,              // Loop slides infinitely
-                speed: 3000,             // Speed of sliding transition
-                freeMode: true,          // Continuous sliding effect
-                autoplay: {
-                    delay: 0,                  // No delay between transitions
-                    disableOnInteraction: false,
-                }
-            });
-        </script>
-        <!-- form -->
-        <Section class="container" style=" margin-top: -20px;">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="form-container" style="z-index: 2;">
-                        <div class="circle">
-                            <img src="https://brandsoul.best121.com/wp-content/uploads/2024/04/Ellipse-67.png" alt="">
+            <section class="logoMarqueeSection">
+                <div class="container" id="logoMarqueeSection">
+                    <div class="default-content-container flex items-center">
+                        <div
+                            class="default-content-container-inner marquee-wrapper relative overflow-hidden inline-block">
+                            <div class="marquee" style="animation-duration: 57s;"><a><img decoding="async"
+                                        src="asset/images/MDEC-11.png" alt="logo-14" class="marqueelogo"></a><a><img
+                                        decoding="async" src="asset/images/MDEC-12.png" alt="logo-13"
+                                        class="marqueelogo"></a><a><img decoding="async" src="asset/images/MDEC-13.png"
+                                        alt="logo-12" class="marqueelogo"></a><a><img decoding="async"
+                                        src="asset/images/MDEC.png" alt="logo-11" class="marqueelogo"></a><a><img
+                                        decoding="async" src="asset/images/MDEC-1.png" alt="logo-10"
+                                        class="marqueelogo"></a><a><img decoding="async" src="asset/images/MDEC-2.png"
+                                        alt="logo-9" class="marqueelogo"></a><a><img decoding="async"
+                                        src="asset/images/MDEC-3.png" alt="logo-8" class="marqueelogo"></a><a><img
+                                        decoding="async" src="asset/images/MDEC-4.png" alt="logo-7"
+                                        class="marqueelogo"></a><a><img decoding="async" src="asset/images/MDEC-5.png"
+                                        alt="logo-6" class="marqueelogo"></a><a><img decoding="async"
+                                        src="asset/images/MDEC-6.png" alt="logo-5" class="marqueelogo"></a><a><img
+                                        decoding="async" src="asset/images/MDEC-7.png" alt="logo-4"
+                                        class="marqueelogo"></a><a><img decoding="async" src="asset/images/MDEC-8.png"
+                                        alt="logo-3" class="marqueelogo"></a><a><img decoding="async"
+                                        src="asset/images/MDEC-9.png" alt="logo-2" class="marqueelogo"></a><a><img
+                                        decoding="async" src="asset/images/MDEC-10.png" alt="logo-1"
+                                        class="marqueelogo"></a></div>
+                            <div class="marquee" style="animation-duration: 57s;"><a><img decoding="async"
+                                        src="asset/images/MDEC-11.png" alt="logo-14" class="marqueelogo"></a><a><img
+                                        decoding="async" src="asset/images/MDEC-12.png" alt="logo-13"
+                                        class="marqueelogo"></a><a><img decoding="async" src="asset/images/MDEC-13.png"
+                                        alt="logo-12" class="marqueelogo"></a><a><img decoding="async"
+                                        src="asset/images/MDEC.png" alt="logo-11" class="marqueelogo"></a><a><img
+                                        decoding="async" src="asset/images/MDEC-1.png" alt="logo-10"
+                                        class="marqueelogo"></a><a><img decoding="async" src="asset/images/MDEC-2.png"
+                                        alt="logo-9" class="marqueelogo"></a><a><img decoding="async"
+                                        src="asset/images/MDEC-3.png" alt="logo-8" class="marqueelogo"></a><a><img
+                                        decoding="async" src="asset/images/MDEC-4.png" alt="logo-7"
+                                        class="marqueelogo"></a><a><img decoding="async" src="asset/images/MDEC-5.png"
+                                        alt="logo-6" class="marqueelogo"></a><a><img decoding="async"
+                                        src="asset/images/MDEC-6.png" alt="logo-5" class="marqueelogo"></a><a><img
+                                        decoding="async" src="asset/images/MDEC-7.png" alt="logo-4"
+                                        class="marqueelogo"></a><a><img decoding="async" src="asset/images/MDEC-8.png"
+                                        alt="logo-3" class="marqueelogo"></a><a><img decoding="async"
+                                        src="asset/images/MDEC-9.png" alt="logo-2" class="marqueelogo"></a><a><img
+                                        decoding="async" src="asset/images/MDEC-10.png" alt="logo-1"
+                                        class="marqueelogo"></a></div>
                         </div>
-                        <h2 class="form-title">How can we help you today?</h2>
-                        <form id="helpForm">
-                            <div class="row">
-                                <div class="col-md-6 mb-3">
-                                    <select class="form-select" required>
-                                        <option selected disabled>Hello, how can we help you today?</option>
-                                        <option value="support">Support</option>
-                                        <option value="sales">Sales Inquiry</option>
-                                        <option value="feedback">Feedback</option>
-                                    </select>
-                                </div>
-
-                                <div class="col-md-6 mb-3">
-                                    <input type="text" class="form-control fc" placeholder="Full Name" required>
-                                </div>
-                                <div class="col-md-6 mb-3">
-                                    <input type="email" class="form-control fc" placeholder="Email" required>
-                                </div>
-                                
-                                <div class="col-md-6 mb-3">
-                                    <input type="tel" class="form-control fc" placeholder="Phone" required>
-                                </div>
-                                <button type="submit" class="btn btn-submit">Submit</button>
-                            </div>
-                        </form>
-                        <img src="https://brandsoul.best121.com/wp-content/uploads/2024/04/Rocket-Image.png"
-                        alt="Character" class="character" style="z-index: 3;">
                     </div>
-
-                    <script>
-                        document.getElementById("helpForm").addEventListener("submit", function (event) {
-                            event.preventDefault();
-                            alert("Form submitted successfully!");
-                        });
-                    </script>
                 </div>
+            </section>
+
+            <!-- form -->
+            <Section class="container d-flex" style="margin-left: 10px;">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="form-container" style="z-index: 2;">
+                            <div class="circle">
+                                <img src="asset/images/small-dot.png" alt="">
+                            </div>
+                            <h2 class="form-title">How can we help you today?</h2>
+                            <form id="helpForm">
+                                <div class="row">
+                                    <div class="col-md-6 mb-3">
+                                        <select class="form-select" required>
+                                            <option value="">Hello, how can we help you today?</option>
+                                            <option value="Brand Strategy &amp; Brand Identity">Brand Strategy &amp;
+                                                Brand Identity</option>
+                                            <option value="Marketing Strategy With Automation">Marketing Strategy With
+                                                Automation</option>
+                                            <option value="Digital Marketing">Digital Marketing</option>
+                                            <option value="Website/App Development">Website/App Development</option>
+                                            <option value="Public Relation/Media Interview">Public Relation/Media
+                                                Interview</option>
+                                            <option value="Brand and Marketing Training">Brand and Marketing Training
+                                            </option>
+                                            <option value="Others">Others</option>
+                                        </select>
+                                    </div>
+
+                                    <div class="col-md-6 mb-3">
+                                        <input type="text" class="form-control fc" placeholder="Full Name" required>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <input type="email" class="form-control fc" placeholder="Email" required>
+                                    </div>
+
+                                    <div class="col-md-6 mb-3">
+                                        <input type="tel" class="form-control fc" placeholder="Phone" required>
+                                    </div>
+                                    <button type="submit" class="btn btn-submit">Submit</button>
+                                </div>
+                            </form>
+                            <img src="asset/images/Rocket-Image.png" alt="Character" class="character"
+                                style="z-index: 3;">
+                        </div>
+
+                        <script>
+                            document.getElementById("helpForm").addEventListener("submit", function (event) {
+                                event.preventDefault();
+                                alert("Form submitted successfully!");
+                            });
+                        </script>
+                    </div>
             </Section>
         </div>
     </div>
 </section>
 <!-- counter box -->
-<div class="container py-5">
-    <div class="row text-center">
-        <div class="col-md-3 col-6 mb-4">
-            <div class="counter-box">
-                <div class="dot"></div>
-                150+
+<section class="secondsection">
+    <div class="container py-5" style="max-width: 1140px;">
+        <div class="row text-center">
+            <div class="col-md-3 col-12 mb-4">
+                <div class="counter-box">
+                    <div class="dot"></div>
+                    150+
+                </div>
+                <div class="counter-label mt-4">Completed Projects</div>
             </div>
-            <div class="counter-label mt-4">Completed Projects</div>
-        </div>
-        <div class="col-md-3 col-6 mb-4">
-            <div class="counter-box empty">
-                20+
+            <div class="col-md-3 col-12 mb-4">
+                <div class="counter-box empty">
+                    20+
+                </div>
+                <div class="counter-label mt-4">Years of Combined Experience</div>
             </div>
-            <div class="counter-label mt-4">Years of Combined Experience</div>
-        </div>
-        <div class="col-md-3 col-6 mb-4">
-            <div class="counter-box">
-                <div class="dot"></div>
-                100+
+            <div class="col-md-3 col-12 mb-4">
+                <div class="counter-box">
+                    <div class="dot"></div>
+                    100+
+                </div>
+                <div class="counter-label mt-4">Organic Growth</div>
             </div>
-            <div class="counter-label mt-4">Organic Growth</div>
-        </div>
-        <div class="col-md-3 col-6 mb-4">
-            <div class="counter-box empty">
-                1+
+            <div class="col-md-3 col-12 mb-4">
+                <div class="counter-box empty">
+                    1+
+                </div>
+                <div class="counter-label mt-4">Leadership Position</div>
             </div>
-            <div class="counter-label mt-4">Leadership Position</div>
         </div>
     </div>
-</div>
+</section>
 <!-- branding text -->
-<div class="branding container mt-5">
-    <div class="row flex-column-reverse flex-md-row align-items-center">
-        <!-- First Image -->
-        <div class="col-md-1 text-md-end text-center mt-3 mt-md-0">
-            <img src="https://brandsoul.best121.com/wp-content/uploads/2024/04/image-3.png" alt="Astronaut Cat"
-                class="img1 img-fluid">
-        </div>
-        <!-- Middle Content -->
-        <div class="col-md-10 text-center">
-            <h2 class="branding-text">
-                An Award-Winning & Global Focused <br>
-                <span class="highlight">Branding and Marketing</span> Consultancy
-            </h2>
-            <p class="sub-text">We don’t just build brands, we <strong>nurture legacies.</strong></p>
-            <a href="#" class="read-more-btn">Read More</a>
-        </div>
-        <!-- Second Image -->
-        <div class="col-md-1 text-md-start text-center">
-            <img src="https://brandsoul.best121.com/wp-content/uploads/2024/04/image-4.png" alt="Earth"
-                class="img2 img-fluid">
-        </div>
-    </div>
-</div>
-<!-- Capabilities  -->
-<div class="container">
-    <div class="row align-items-center">
-        <!-- First Column -->
-        <div class="col-md-4 content-box text-end">
-            <h5 class="d-flex justify-content-end align-items-center">
-                <i class="fas fa-recycle icon order-1 ms-2"></i>
-                <span class="order-2">Sustainable Brand Strategy</span>
-            </h5>
-            <p>Elevate your business with <strong>intelligence-driven branding</strong> and a proven framework
-                integrating sustainability for lasting impact.</p>
-
-            <h5 class="d-flex justify-content-end align-items-center">
-                <i class="fas fa-palette icon order-1 ms-2"></i>
-                <span class="order-2">Brand Identity or Visual Branding</span>
-            </h5>
-            <p>Bringing your vision to life with compelling visuals that unleash your <strong>brand’s
-                    story</strong>. From <strong>brand setup</strong> to rebranding, we elevate your <strong>brand
-                    equity</strong>.</p>
-
-            <h5 class="d-flex justify-content-end align-items-center">
-                <i class="fas fa-file-alt icon order-1 ms-2"></i>
-                <span class="order-2">Personalised Content Marketing</span>
-            </h5>
-            <p>From <strong>AI-driven SEO content</strong> to storytelling-driven marketing, we craft
-                <strong>hyper-personalized</strong> content that fosters deep connections.
-            </p>
-        </div>
-
-        <!-- Second Column -->
-        <div class="col-md-4 text-center">
-            <img src="https://brandsoul.best121.com/wp-content/uploads/elementor/thumbs/Khzt4pa9-2-qwbejlv4r7oteocyyrj0ei26xq5lqya3ipfds02ppc.png"
-                alt="Brand Image">
-            <div class="image-box">
-                <h4 style="font-size: 30px;color: #000; font-weight: 700;">Our Capabilities</h4>
-                <button class="view-all-btn">View All</button>
+<section class="thirdsection">
+    <div class="branding container">
+        <div class="row flex-column-reverse flex-md-row align-items-center">
+            <!-- First Image -->
+            <div class="col-md-2 gx-0" style="height: 68%; display: flex;
+            justify-content: end;
+            align-items: end;">
+                <img src="asset/images/car-robot.png" alt="Astronaut Cat" class="img1 img-fluid">
+            </div>
+            <!-- Middle Content -->
+            <div class="col-md-8 text-center mt-4 gx-0">
+                <div class="branding-text1" style="max-width: 100%;">
+                    <h2 class="branding-text">
+                        An Award-Winning & Global Focused <br>
+                        <span class="highlight">Branding and Marketing</span> Consultancy
+                    </h2>
+                    <p class="sub-text">We don’t just build brands, we <strong>nurture legacies.</strong></p>
+                    <a href="#" class="read-more-btn">Read More</a>
+                </div>
+            </div>
+            <!-- Second Image -->
+            <div class="col-md-2 gx-0" style="height: 85%; display: flex;
+            justify-content: start;
+            align-items: start;">
+                <img src="asset/images/earth.png" alt="Earth" class="img2 img-fluid">
             </div>
         </div>
+    </div>
+</section>
+<!-- Capabilities  -->
+<section class="fourthsection">
+    <div class="container" style="max-width: 1140px;">
+        <div class="row align-items-center" style="height: 100%;">
+            <!-- First Column -->
+            <div class="first-cap-col col-md-4 content-box text-end">
+                <div class="capabilities-content" style="display: flex;">
+                    <h5 class="d-flex justify-content-end align-items-center">
+                        <img src="asset/images/svg-image-2.png" alt="">
 
-        <!-- Third Column -->
-        <div class="col-md-4 content-box text-end">
-            <h5 class="d-flex justify-content-end align-items-center">
-                <span>Marketing Automation & Data Analytics</span>
-                <i class="fas fa-chart-line icon ms-2"></i>
-            </h5>
-            <p>Gain insights through advanced data analytics and automation to optimize your marketing efforts
-                effectively.</p>
+                        <span class="order-2">Sustainable Brand Strategy</span>
+                    </h5>
+                    <span class="arrow-style"></span>
+                </div>
+                <p>Elevate your business with <strong>intelligence-driven branding</strong> and a proven framework
+                    integrating sustainability for lasting impact.</p>
+                <div class="capabilities-content" style="display: flex;">
+                    <h5 class="d-flex justify-content-end align-items-center">
+                        <img src="asset/images/svg-image-3.png" alt="">
+                        <span class="order-2">Brand Identity or Visual Branding</span>
+                    </h5>
+                    <span class="arrow-style"></span>
+                </div>
+                <p>Bringing your vision to life with compelling visuals that unleash your <strong>brand’s
+                        story</strong>. From <strong>brand setup</strong> to rebranding, we elevate your <strong>brand
+                        equity</strong>.</p>
+                <div class="capabilities-content" style="display: flex;">
+                    <h5 class="d-flex justify-content-end align-items-center">
+                        <img src="asset/images/svg-image-4.png" alt="">
+                        <span class="order-2">Personalised Content Marketing</span>
+                    </h5>
+                    <span class="arrow-style"></span>
+                </div>
+                <p>From <strong>AI-driven SEO content</strong> to storytelling-driven marketing, we craft
+                    <strong>hyper-personalized</strong> content that fosters deep connections.
+                </p>
+            </div>
 
-            <h5 class="d-flex justify-content-end align-items-center">
-                <span>UI/UX or Website Development</span>
-                <i class="fas fa-laptop-code icon ms-2"></i>
-            </h5>
-            <p>We design and develop seamless digital experiences that enhance user engagement and drive
-                conversions.</p>
+            <!-- Second Column -->
+            <div class="second-cap-col col-md-4 text-center">
+                <img src="asset/images/goldenball.png"
+                    alt="Brand Image">
+                <div class="image-box">
+                    <h4 style="font-size: 30px;color: #000; font-weight: 700;">Our Capabilities</h4>
+                    <button class="view-all-btn">View All</button>
+                </div>
+            </div>
 
-            <h5 class="d-flex justify-content-end align-items-center">
-                <span>Marketing Execution</span>
-                <i class="fas fa-bullseye icon ms-2"></i>
-            </h5>
-            <p>Strategically executing campaigns with precision to maximize brand visibility and audience
-                engagement.</p>
+            <!-- Third Column -->
+            <div class="third-cap-col col-md-4 content-box1 text-end">
+                <div class="capabilities-content" style="display: flex;">
+                    <span class="arrow-style1"></span>
+                    <h5 class="d-flex justify-content-end align-items-center">
+                        <span>Marketing Automation & Data Analytics</span>
+                        <img src="asset/images/svg-image-5.png" alt="">
+                    </h5>
+                   
+                </div>
+                <p>Gain insights through advanced data analytics and automation to optimize your marketing efforts
+                    effectively.</p>
+                <div class="capabilities-content" style="display: flex;">
+                    <span class="arrow-style1"></span>
+                    <h5 class="d-flex justify-content-end align-items-center">
+                        <span>UI/UX or Website Development</span>
+                        <img src="asset/images/svg-image-6.png" alt="">
+                    </h5>
+                </div>
+                <p>We design and develop seamless digital experiences that enhance user engagement and drive
+                    conversions.</p>
+                <div class="capabilities-content" style="display: flex;">
+                    <span class="arrow-style1"></span>
+                    <h5 class="d-flex justify-content-end align-items-center" >
+                        <span>Marketing Execution</span>
+                        <img src="asset/images/svg-image-7.png" alt="">
+                    </h5>
+                </div>
+                <p>Strategically executing campaigns with precision to maximize brand visibility and audience
+                    engagement.</p>
+            </div>
         </div>
     </div>
-</div>
-
+</section>
 <!-- swiper slider -->
 <section class="client-slider py-5">
     <div class="container text-center">
