@@ -64,7 +64,6 @@ body {
       top: -100%;
       transition: top 1s ease;
       max-height: 100%;
-      /* overflow-y: auto; */
   }
   
   .modal-wrapper.open {
@@ -75,8 +74,6 @@ body {
   .modal-wrapper.open .modal {
       top: 00%;
   }
-  
-  
   .popup-fs{
       padding-left: 112px;
       padding-right: 112px;
@@ -269,8 +266,7 @@ body {
       content: url('/wp-content/uploads/2025/01/Icon-awesome-instagram.svg');
       margin-right: 10px;
   }
-  
-  
+
   @media(max-width: 1225px){
       .modal-wrapper.open .modal {
           top: 0%;
