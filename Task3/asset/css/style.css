@@ -305,17 +305,17 @@ body {
 }
 
 .social-linkedin::before {
-      content: url('/wp-content/uploads/2025/01/Icon-awesome-linkedin.svg');
+      content: url('https://brandsoul.best121.com/wp-content/uploads/2025/01/Icon-awesome-linkedin.svg');
       margin-right: 10px;
 }
 
 .social-facebook::before {
-      content: url('/wp-content/uploads/2025/01/Icon-awesome-facebook.svg');
+      content: url('https://brandsoul.best121.com/wp-content/uploads/2025/01/Icon-awesome-facebook.svg');
       margin-right: 10px;
 }
 
 .social-instagram::before {
-      content: url('/wp-content/uploads/2025/01/Icon-awesome-instagram.svg');
+      content: url('https://brandsoul.best121.com/wp-content/uploads/2025/01/Icon-awesome-instagram.svg');
       margin-right: 10px;
 }
 
@@ -1134,13 +1134,20 @@ body {
       margin-bottom: 40px;
 
 }
-
-.post-card img {
-      overflow: hidden;
-      transition: transform 0.3s ease;
-      border-radius: 20px;
+.imagediv{
+      width: 100%;
       height: 367px;
-
+      border-radius: 16px;
+      overflow: hidden;
+      position: relative;
+}
+.post-card .imagediv img {
+      background-size: cover;
+      background-position: center;
+      height: 100%;
+      width: 100%;
+      border-radius: 16px;
+      transition: transform 0.3s ease;
 }
 
 .filter {
@@ -1497,7 +1504,7 @@ body {
 .footer-top .footer-p {
       text-align: center;
       color: #000000;
-      font-family: "Inter", Sans-serif;
+      font-family: "interregular", Sans-serif;
       font-size: 16px;
       font-weight: 400;
       line-height: 20px;
@@ -1525,7 +1532,15 @@ body {
       height: 70px;
       padding-bottom: 10px;
 }
-
+.footer .footer-h6{
+      color: #000000;
+    font-family: "Poppins-Medium", Sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -0.012em;
+    padding: 0px 0px 27px 0px;
+}
 .footer a {
       color: #000;
       text-decoration: none;
