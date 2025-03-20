@@ -667,7 +667,7 @@ body {
 }
 
 
-.btn-submit {
+.formbotton {
       background: radial-gradient(117.59% 927.77% at 108.24% 283.1%, #FF0062 26%, #FBAF3F 100%);
       border: none;
       width: 220px;
@@ -675,7 +675,6 @@ body {
       padding: 12px;
       font-weight: bold;
       border-radius: 25px;
-      transition: 0.3s;
       font-size: 18px;
       display: block;
       margin: 0 auto;
