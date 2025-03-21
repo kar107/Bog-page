@@ -613,7 +613,6 @@ body {
 /* form style */
 .form-container {
       max-width: 100%;
-   
       margin: 30px auto;
       background: rgb(235, 235, 235);
       padding: 0 120px;
@@ -638,7 +637,7 @@ body {
 
 .helpForm {
       margin: 44px 50px 50px 50px;
-      
+
 }
 
 .form-select {
@@ -795,6 +794,7 @@ body {
       }
 }
 
+
 .thirdsection .branding-text {
       font-size: 40px;
       font-weight: bold;
@@ -842,6 +842,7 @@ body {
       background: linear-gradient(0deg, #FF0062 0%, #FF0062 100%);
       background-clip: text;
 
+
 }
 
 .thirdsection .read-more-btn:hover {
@@ -882,7 +883,7 @@ body {
 }
 
 .fourthsection .capabilities-content {
-      margin-bottom: 16px;
+      margin-bottom: 11px;
 }
 
 .fourthsection .content-box h5 {
@@ -930,7 +931,7 @@ body {
       line-height: 24px;
       text-align: right;
       margin: 2px;
-      margin-bottom: 57px;
+      margin-bottom: 53px;
 }
 
 .fourthsection .fourthsectionclass {
@@ -941,7 +942,7 @@ body {
       height: auto;
       justify-self: end;
       align-self: flex-end;
-      padding-bottom: 40px;
+      padding-bottom: 3px;
 }
 
 .fourthsection .capabilitybox .image-box {
@@ -992,7 +993,7 @@ body {
 
 /* swiper slider */
 .fifthsection {
-      padding-top: 58px;
+      padding-top: 97px;
 }
 
 .fifthsection .fifth-h2 {
@@ -1135,13 +1136,15 @@ body {
       margin-bottom: 40px;
 
 }
-.imagediv{
+
+.imagediv {
       width: 100%;
       height: 367px;
       border-radius: 16px;
       overflow: hidden;
       position: relative;
 }
+
 .post-card .imagediv img {
       background-size: cover;
       background-position: center;
@@ -1154,7 +1157,7 @@ body {
 .filter {
       display: flex;
       margin: auto;
-      margin-bottom: 40px;
+      margin-bottom: 24px;
       white-space: nowrap;
       border-radius: 50px;
       border: 1px solid #AEAEAE;
@@ -1279,7 +1282,7 @@ body {
 
 /* award section */
 .eighthsection .awards-section {
-      padding: 65px 0;
+      padding: 52px 0;
 }
 
 .eighthsection .awards-section h2 {
@@ -1293,7 +1296,7 @@ body {
 
 /* latest update */
 .ninthsection {
-      margin-top: 53px;
+      margin-top: 65px;
 }
 
 .ninthsection .blog-card {
@@ -1481,7 +1484,7 @@ body {
 
 .footer-top {
       text-align: center;
-      margin-bottom: 28px;
+      margin-bottom: 50px;
 }
 
 .footer-top .footer-title {
@@ -1509,7 +1512,7 @@ body {
       font-size: 16px;
       font-weight: 400;
       line-height: 20px;
-      margin-bottom: 20px;
+      margin-bottom: 26px;
 }
 
 .footer-bottom h5 {
@@ -1529,19 +1532,21 @@ body {
 }
 
 .footer .logo img {
-      max-width: 180px;
-      height: 70px;
+      width: 200px;
       padding-bottom: 10px;
+
 }
-.footer .footer-h6{
+
+.footer .footer-h6 {
       color: #000000;
-    font-family: "Poppins-Medium", Sans-serif;
-    font-size: 16px;
-    font-weight: 600;
-    line-height: 24px;
-    letter-spacing: -0.012em;
-    padding: 0px 0px 27px 0px;
+      font-family: "Poppins-Medium", Sans-serif;
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 24px;
+      letter-spacing: -0.012em;
+      padding: 0px 0px 27px 0px;
 }
+
 .footer a {
       color: #000;
       text-decoration: none;
