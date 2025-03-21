@@ -362,7 +362,7 @@ small {
     padding-left: 0;
     font-size: 100%;
     margin-top: 60px;
-   
+
 }
 
 .card ul li {
@@ -394,6 +394,10 @@ small {
 
 /* fourth section */
 /* fist dive */
+.fourth-section {
+    margin-top: 65px;
+}
+
 .fourth-section .card {
     margin-top: 60px;
 }
