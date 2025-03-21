@@ -1536,7 +1536,13 @@ body {
       padding-bottom: 10px;
 
 }
-
+.footer .footer-bottom .footer-bottom-p{
+      color: #000000;
+      font-family: "interregular", Sans-serif;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 20px;
+}
 .footer .footer-h6 {
       color: #000000;
       font-family: "Poppins-Medium", Sans-serif;
@@ -1546,7 +1552,14 @@ body {
       letter-spacing: -0.012em;
       padding: 0px 0px 27px 0px;
 }
-
+.footer .footer-bottom .list-unstyled li a{
+      color: #000000;
+    fill: #000000;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
 .footer a {
       color: #000;
       text-decoration: none;
@@ -1555,28 +1568,37 @@ body {
 .footer a:hover {
       color: #ff6600;
 }
-
+.footer .social-icons{
+      padding-top: 15px;
+}
 .footer .social-icons a {
       color: #000;
-      font-size: 20px;
+      font-size: 24px;
       margin-right: 15px;
+      
+}
+.footer-bottom-btn{
+      display: flex; justify-content: end;
+      margin-top: -40px;
 }
 
 .newsletter input[type="email"] {
-      border-radius: 5px 0 0 5px;
+      border-radius: 8px 8px 8px 8px;
       padding: 10px;
-      width: 70%;
+      width: 100%;
       height: 40px;
 }
 
 .newsletter button {
-      border-radius: 10px 5px 5px 10px;
-      background: linear-gradient(to right, #ff0066, #ff6600);
-      color: #fff;
-      border: none;
-      height: 40px;
-      width: 130px;
-      padding: 10px 20px;
+      border-radius: 8px 8px 8px 8px;
+      background: radial-gradient(117.59% 927.77% at 108.24% 283.1%, #FF0062 26%, #FBAF3F 100%);
+      font-family: "Poppins", Sans-serif;
+      color: white;
+      font-size: 14px;
+      font-weight: 600;
+      line-height: 40px;
+      border-radius: 8px 8px 8px 8px;
+      padding: 0px 16px 0px 16px;
 }
 
 .bottomp {
