@@ -470,9 +470,10 @@ small {
 }
 
 /* third div */
-.third{
+.third {
     margin-top: 95px;
-} 
+}
+
 .dropdown-container {
     background: #FFEFEF;
     border-radius: 10px;
@@ -615,6 +616,7 @@ small {
     margin-bottom: 14px;
 }
 
+
 .carousel-control-prev,
 .carousel-control-next {
     width: 25px;
@@ -627,11 +629,11 @@ small {
 }
 
 .carousel-control-prev {
-    right: 100%;
+    right: 97%;
 }
 
 .carousel-control-next {
-    right: -30px;
+    right: -18px;
 }
 
 .carousel-control-prev-icon,
@@ -644,7 +646,7 @@ small {
 }
 
 .carousel-indicators {
-    bottom: -70px;
+    bottom: -80px;
 }
 
 .carousel-indicators [data-bs-target] {
@@ -674,21 +676,25 @@ small {
     justify-content: center;
     background-color: #FCDADA;
     margin: -72px;
-    margin-top: 10px;
+    margin-top: 0px;
 }
 
 .fifth .image-container img {
     width: 88%;
     height: auto;
     margin-right: 50px;
-    margin-top: 30px;
+    margin-top: 8px;
 }
 
 /* fifth section */
+.fifth-section {
+    padding-top: 160px;
+}
+
 .fifth-section .video-thumbnail {
     position: relative;
     cursor: pointer;
-    height: 350px;
+    height: 340px;
     width: 100%;
     overflow: hidden;
     margin-bottom: 10px;
@@ -765,10 +771,10 @@ small {
 .seventh-section .video-thumbnail {
     position: relative;
     cursor: pointer;
-    height: 350px;
+    height: 340px;
     width: 100%;
     overflow: hidden;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .seventh-section .play-button {
@@ -813,8 +819,7 @@ small {
     line-height: 81.71px;
     color: #06193F;
     text-align: center;
-    padding: 100px;
-    padding-top: 200px;
+    padding: 82px 100px 100px 100px;
 }
 
 #eighth-section .card2 {
@@ -834,7 +839,7 @@ small {
     margin-right: auto;
 }
 
-#eighth-section .card2 h2 {
+#eighth-section .card2 .contetnt-header {
     font-family: 'OpenSansHebrewCondensedBold', sans-serif;
     font-size: 30px;
     font-weight: 700;
@@ -843,9 +848,21 @@ small {
     color: #06193F;
 }
 
+#eighth-section .card2 .card-footer h2 {
+    font-weight: 700;
+    line-height: 40.85px;
+    font-size: 20px;
+    font-family: 'OpenSansHebrewCondensedBold', sans-serif;
+    color: #B74F4F;
+    display: flex;
+    letter-spacing: 1px;
+    justify-content: start;
+    margin: 0;
+}
+
 #eighth-section .card2 .card-p {
     font-family: 'OpenSansHebrewRegular', sans-serif;
-    padding: 44px 0px 0px 0px;
+    padding: 36px 0px 0px 0px;
     color: #06193F;
     font-size: 20px;
     font-weight: 400;
@@ -858,23 +875,19 @@ small {
     background-color: #F9F0F0;
     height: 240px;
     max-width: 100%;
+    padding-left: 28px;
+    padding-right: 33px;
+    padding-top: 14px;
+    margin-top: 20px;
 }
 
-#eighth-section .card-footer .card-footer-h2 {
-    font-size: 20px;
-    font-family: 'OpenSansHebrewCondensedBold', sans-serif;
-    color: #B74F4F;
-    display: flex;
-    padding: 10px;
-    justify-content: start;
-    margin: 0;
-}
 
 #eighth-section .card-footer .card-footer-content {
     color: #06193F;
-    font-family: "OpenSansHebrewCondensedBold", Sans-serif;
+    font-family: "OpenSansHebrewRegular", Sans-serif;
+    letter-spacing: 1px;
     font-size: 20px;
-    font-weight: 700;
+    font-weight: 800;
     line-height: 27.24px;
 }
 
@@ -909,10 +922,10 @@ small {
 
 .ninth-section .card-custom .super-Woman {
     position: absolute;
-    top: 50px;
+    top: 65px;
     left: 12px;
     border-radius: 71px 71px 71px 71px;
-    width: 420px;
+    width: 430px;
     height: 517px;
     overflow: hidden;
 }
@@ -931,7 +944,6 @@ small {
     color: #FFFFFF;
     font-size: 20px;
     font-weight: 400;
-    width: 97%;
     line-height: 27.24px;
 }
 
@@ -980,7 +992,7 @@ small {
     margin: auto;
     margin-top: -180px;
     padding-top: 200px;
-    border-radius: 85px;
+    border-radius: 0px 0px 122px 122px;
     width: 100%;
     z-index: 1;
 }
@@ -1096,6 +1108,7 @@ small {
     font-weight: 600;
     color: #000000;
     letter-spacing: 0.2px;
+    margin-bottom: 20px;
 }
 
 .success-card-h2 h2 {
@@ -1113,8 +1126,8 @@ small {
 
 .success-card p {
     font-size: 1rem;
-    margin-top: -4px;
     margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 .success-card .stars {
@@ -1122,7 +1135,6 @@ small {
     font-size: 28px;
     margin-bottom: 10px;
     letter-spacing: -0.5px;
-    margin-top: -28px;
 }
 
 .success-card-p p {
@@ -1132,10 +1144,18 @@ small {
     color: #000000;
 }
 
-.eleventh-section iframe {
+.eleventh-section .iframe-video iframe {
     width: 100%;
-    height: 250px;
+    height: 100%;
     border-radius: 20px;
+}
+
+.eleventh-section .iframe-video {
+    border-radius: 30px;
+    width: 100%;
+    height: 181px;
+    overflow: hidden;
+
 }
 
 /* twelth section */
@@ -1145,7 +1165,7 @@ small {
     color: white;
     border-radius: 71px 71px 71px 71px;
     padding-top: 60px;
-    padding-bottom: 44px;
+    padding-bottom: 36px;
     padding-left: 70px;
     padding-right: 79px;
     margin: auto;
@@ -1166,7 +1186,7 @@ small {
     font-weight: 700;
     line-height: 81.71px;
     margin-top: -13px;
-    padding-bottom: 20px;
+    padding-bottom: 24px;
     color: #FEFAFA
 }
 
@@ -1181,7 +1201,6 @@ small {
 
 .twelth-setion .image-container img {
     width: 100%;
-    height: 100%;
 }
 
 
@@ -1191,6 +1210,8 @@ small {
     font-size: 23px;
     font-weight: 400;
     line-height: 31px;
+    margin-bottom: 30px;
+    margin-left: 15px;
 }
 
 .twelth-setion .custom-card-pb {
@@ -1199,6 +1220,7 @@ small {
     font-size: 23px;
     font-weight: 700;
     line-height: 31px;
+    margin-bottom: 30px;
 }
 
 @media (max-width: 768px) {
@@ -1235,7 +1257,6 @@ small {
     margin-left: auto;
     margin-right: auto;
     overflow: hidden;
-    /* Prevents visual breaks */
     transition: background-color 0.3s ease;
 }
 
@@ -1272,7 +1293,7 @@ small {
 .thirtirth-section .accordion-body {
     max-height: 0;
     overflow: hidden;
-    background-color: #f9e9e9;
+    background-color: #F2D4D4 !important;
     font-size: 20px;
     font-weight: 400;
     line-height: 27.24px;
@@ -1287,8 +1308,8 @@ small {
 }
 
 /* Merge background and border-radius smoothly when active */
-.thirtirth-section .accordion-item.active {
-    background-color: #f9e9e9;
+.thirtirth-section .accordion-item .active {
+    background-color: #F2D4D4 !important;
     border-radius: 32px;
 }
 
@@ -1305,9 +1326,9 @@ small {
     background-color: transparent;
     background-image: linear-gradient(270deg, #FFFFFF 0%, #FFEBEB 100%);
     padding: 50px;
-    border-radius: 15px;
+    border-radius: 32px;
     max-width: 1170px;
-    padding-top: 18px;
+    padding-top: 25px;
     margin: 80px auto;
     box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
     display: flex;
@@ -1374,7 +1395,7 @@ small {
     border-style: solid;
     border-width: 0px 0px 0px 0px;
     border-radius: 68px 68px 68px 68px;
-    margin-top: 40px;
+    margin-top: 42px;
     margin-right: -20px;
     padding: 14px 172px 14px 172px;
 }
@@ -1395,15 +1416,13 @@ small {
     font-weight: 400;
     line-height: 21.79px;
     color: #132B59;
-    position: absolute;
-    left: 34%;
-    top: 43%;
+    margin-top: 25px;
+    padding-left: 20px;
 }
 
 .fourteenth-section .arrow-img1 {
-    width: 80px;
-    margin-top: -8px;
-    margin-left: 15px;
+    /* margin-top: -8px; */
+    margin-left: 8px;
 }
 
 .fourteenth-section .last-content {
@@ -1419,7 +1438,7 @@ small {
 .fourteenth-section .devices {
     width: 97%;
     display: flex;
-    margin-top: -40px;
+    margin-top: -55px;
     margin-right: -10px;
 
 }
