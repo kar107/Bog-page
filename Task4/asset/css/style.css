@@ -158,14 +158,24 @@ small {
     text-decoration: none;
 }
 
+
 @media (max-width: 768px) {
     .video-wrapper {
 
         margin-top: 60px;
 
     }
-
+    .social-icons {
+        display: none;
+    }
     .first-section-content {
+        text-align: center;
+    }
+    .enrollment-btn {    
+        padding: 10px 126px;   
+    
+    }
+    .apply-btn{
         width: 100%;
     }
 }
@@ -443,6 +453,16 @@ small {
     display: flex;
     justify-content: center;
 }
+@media (max-width:965px) {
+    .puzzle-img{
+        max-width: 281px;
+    }
+}
+@media (max-width:765px) {
+    .puzzle-img{
+        display: none;
+    }
+}
 
 /* second div */
 .announcement {
@@ -659,7 +679,33 @@ small {
 .carousel-indicators .active {
     background-color: #ab140f;
 }
-
+@media (max-width: 768px) {
+    .fourth{
+        height: auto;
+    }
+}
+@media (max-width: 1024px) {
+    .fourth{
+        height: auto;
+    }
+    .fourth .carousel {
+        height: auto;
+        width: auto;
+    }
+    .carousel-control-prev,
+.carousel-control-next {
+    width: 25px;
+    height: 25px;
+    background-color: #fff;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    top: 50%;
+    transform: translateY(-50%);
+}
+.carousel-indicators {
+    bottom: 0px;
+}
+}
 /* fifth div */
 .fifth {
     margin: auto;
