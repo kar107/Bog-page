@@ -733,6 +733,11 @@ small {
     font-weight: 600;
     line-height: 23.15px;
 }
+.fifth-section .video-thumbnail iframe {
+    width: 100%;
+    height: 100%;
+    background: black;
+}
 
 /* sixth section */
 .sixth-section .video-section1 {
@@ -809,6 +814,11 @@ small {
     font-size: 17px;
     font-weight: 600;
     line-height: 23.15px;
+}
+.seventh-section .video-thumbnail iframe {
+    width: 100%;
+    height: 100%;
+    background: black;
 }
 
 /* eighth section */
