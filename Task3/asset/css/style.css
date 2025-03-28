@@ -61,7 +61,6 @@ body {
       visibility: hidden;
       left: 0;
       background: rgba(25, 18, 12, .8);
-      transition: visibility 1.3s, opacity 1.3s ease;
       opacity: 0;
       padding: 24px;
       overflow-y: auto;
@@ -1396,7 +1395,12 @@ body {
       align-items: center;
       width: 35%;
 }
-
+@media (max-width:768px) {
+      .tenthsection .hero-section .hero-text {
+            
+            width: auto;
+      }     
+}
 .tenthsection .hero-text h5 {
       color: #000000;
       font-family: "Poppins-Medium", Sans-serif;
@@ -1436,7 +1440,11 @@ body {
 .tenthsection .image-column {
       width: 29%;
 }
-
+@media (max-width:768px) {
+      .tenthsection .image-column {
+            width: auto;
+      }    
+}
 .tenthsection .hero-section .hero-column {
       display: flex;
       margin-right: auto;
