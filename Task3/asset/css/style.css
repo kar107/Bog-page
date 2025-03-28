@@ -456,7 +456,14 @@ body {
 
 
 }
-
+@media (max-width:768px) {
+      .firstsection {
+            background-image: url(../images/side_ball.png);
+            background-position: 100% 570px;
+            background-repeat: no-repeat;
+            background-size: 400px auto;
+      }
+}
 .banner {
       margin-top: 102px;
       margin-bottom: 75px;
@@ -547,7 +554,7 @@ body {
       font-family: "Poppins-Medium", sans-serif;
       font-size: 36px;
       font-weight: 600;
-      line-height: 30px;
+      line-height: 40px;
 }
 
 /* Carousel Styles */
